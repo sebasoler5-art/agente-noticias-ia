@@ -1,0 +1,11 @@
+{
+  "date": "2000-01-01",
+  "updated_at": "2000-01-01T00:00:00-03:00",
+  "items": [
+    {
+      "title": "Placeholder",
+      "brief": "Todavía no corrió el agente de noticias, esto es un archivo de arranque.",
+      "detail": "Este archivo se reemplaza automáticamente la primera vez que corre el workflow diario de GitHub Actions."
+    }
+  ]
+}
