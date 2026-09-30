@@ -44,8 +44,8 @@ MAX_ITEMS_PER_FEED = 10
 OUTPUT_PATH = os.path.join(os.path.dirname(__file__), "..", "docs", "news.json")
 ARG_TZ = timezone(timedelta(hours=-3))  # Argentina no tiene horario de verano
 
-GEMINI_MODEL = "gemini-2.5-flash"
-GROQ_MODEL = "llama-3.3-70b-versatile"
+GEMINI_MODEL = "gemini-3.8-flash"
+GROQ_MODEL = "openai/gpt-oss-120b"
 
 SYSTEM_PROMPT = """Sos el editor que arma el resumen diario de inteligencia artificial \
 para Jarvis, un asistente de voz. Vas a recibir una lista de titulares y resúmenes \
