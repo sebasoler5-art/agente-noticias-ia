@@ -1,11 +1,26 @@
 {
-  "date": "2000-01-01",
-  "updated_at": "2000-01-01T00:00:00-03:00",
+  "date": "2026-09-30",
+  "updated_at": "2026-09-30T01:03:50-03:00",
   "items": [
     {
-      "title": "Placeholder",
-      "brief": "Todavía no corrió el agente de noticias, esto es un archivo de arranque.",
-      "detail": "Este archivo se reemplaza automáticamente la primera vez que corre el workflow diario de GitHub Actions."
+      "title": "OpenAI presenta sus nuevos agentes Dots",
+      "brief": "OpenAI presentó Dots, una serie de asistentes inteligentes diseñados para trabajar solos en segundo plano resolviendo tareas complejas en la computadora.",
+      "detail": "En su evento anual para desarrolladores, la empresa mostró estos nuevos agentes autónomos que funcionan con su modelo GPT seis Astra y compiten directo contra Muse de Meta. Además, aprovecharon para anunciar GPT seis punto uno Sol, una versión orientada a programación que ofrece casi la misma capacidad que su modelo estrella pero a un quinto del precio."
+    },
+    {
+      "title": "Filtraciones sobre la salida a la bolsa de Anthropic",
+      "brief": "La empresa creadora de Claude sorprendió a todos tras filtrarse documentos de su salida a la bolsa donde advierte riesgos catastróficos para la humanidad.",
+      "detail": "Los papeles preliminares de la oferta pública revelaron pérdidas por más de cuarenta mil millones de dólares el año pasado y una fuerte dependencia de grandes socios tecnológicos. A pesar de esto, la compañía aspira a conseguir una valuación de dos billones de dólares, mientras su director pide públicamente que los gobiernos regulen con mayor firmeza al sector."
+    },
+    {
+      "title": "OpenAI busca financiamiento pero posterga su debut bursátil",
+      "brief": "OpenAI negocia conseguir treinta mil millones de dólares de inversión mientras aclara que no saldrá a la bolsa hasta garantizar modelos totalmente seguros.",
+      "detail": "La compañía fundada por Sam Altman apunta a una valuación de casi un billón y medio de dólares en esta ronda de financiamiento. Sin embargo, el director ejecutivo remarcó que todavía no tienen una fecha fija para cotizar en el mercado porque priorizan resolver primero los problemas de seguridad en sus sistemas."
+    },
+    {
+      "title": "Decreto en Estados Unidos cambia la denominación oficial",
+      "brief": "El presidente Donald Trump firmó un decreto que obliga a las agencias oficiales estadounidenses a reemplazar el término inteligencia artificial por superinteligencia.",
+      "detail": "A partir de esta orden ejecutiva, todas las páginas oficiales, comunicados de prensa y documentos de políticas del gobierno federal deberán adoptar la nueva denominación de manera obligatoria. El mandatario justificó la medida diciendo que la palabra súper es la mejor de todas y la más simple para definir esta tecnología."
     }
   ]
 }
