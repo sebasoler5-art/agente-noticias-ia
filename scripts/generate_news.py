@@ -108,12 +108,22 @@ def collect_raw_items() -> str:
 # 2. Llamadas a los LLM
 # ---------------------------------------------------------------------------
 
+def _raise_with_body(resp: requests.Response) -> None:
+    """Como raise_for_status() pero mostrando el cuerpo de la respuesta,
+    que es donde el proveedor explica la causa real del error."""
+    if not resp.ok:
+        raise RuntimeError(
+            f"{resp.status_code} {resp.reason} — respuesta del servidor: {resp.text[:500]}"
+        )
+
+
 def call_gemini(raw_items: str) -> dict:
     api_key = os.environ["GEMINI_API_KEY"]
-    url = (
-        f"https://generativelanguage.googleapis.com/v1beta/models/"
-        f"{GEMINI_MODEL}:generateContent?key={api_key}"
-    )
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent"
+    headers = {
+        "x-goog-api-key": api_key,  # la key va en el header, no en ?key=
+        "Content-Type": "application/json",
+    }
     payload = {
         "system_instruction": {"parts": [{"text": SYSTEM_PROMPT}]},
         "contents": [{"parts": [{"text": raw_items}]}],
@@ -122,8 +132,8 @@ def call_gemini(raw_items: str) -> dict:
             "temperature": 0.3,
         },
     }
-    resp = requests.post(url, json=payload, timeout=60)
-    resp.raise_for_status()
+    resp = requests.post(url, json=payload, headers=headers, timeout=60)
+    _raise_with_body(resp)
     data = resp.json()
     text = data["candidates"][0]["content"]["parts"][0]["text"]
     return json.loads(text)
@@ -132,7 +142,10 @@ def call_gemini(raw_items: str) -> dict:
 def call_groq(raw_items: str) -> dict:
     api_key = os.environ["GROQ_API_KEY"]
     url = "https://api.groq.com/openai/v1/chat/completions"
-    headers = {"Authorization": f"Bearer {api_key}"}
+    headers = {
+        "Authorization": f"Bearer {api_key}",
+        "Content-Type": "application/json",
+    }
     payload = {
         "model": GROQ_MODEL,
         "temperature": 0.3,
@@ -143,7 +156,7 @@ def call_groq(raw_items: str) -> dict:
         ],
     }
     resp = requests.post(url, json=payload, headers=headers, timeout=60)
-    resp.raise_for_status()
+    _raise_with_body(resp)
     data = resp.json()
     text = data["choices"][0]["message"]["content"]
     return json.loads(text)
