@@ -1,26 +1,26 @@
 {
   "date": "2026-09-30",
-  "updated_at": "2026-09-30T01:03:50-03:00",
+  "updated_at": "2026-09-30T13:34:20-03:00",
   "items": [
     {
-      "title": "OpenAI presenta sus nuevos agentes Dots",
-      "brief": "OpenAI presentó Dots, una serie de asistentes inteligentes diseñados para trabajar solos en segundo plano resolviendo tareas complejas en la computadora.",
-      "detail": "En su evento anual para desarrolladores, la empresa mostró estos nuevos agentes autónomos que funcionan con su modelo GPT seis Astra y compiten directo contra Muse de Meta. Además, aprovecharon para anunciar GPT seis punto uno Sol, una versión orientada a programación que ofrece casi la misma capacidad que su modelo estrella pero a un quinto del precio."
+      "title": "OpenAI presenta el modelo GPT 6.1 Sol y los asistentes Dots",
+      "brief": "OpenAI presentó a Dots, unos asistentes que trabajan de fondo en tus tareas, junto a un nuevo modelo mucho más barato.",
+      "detail": "En su evento anual para desarrolladores, mostraron esta herramienta que compite con las propuestas de Meta y funciona de forma autónoma. Además lanzaron GPT 6.1 Sol, un modelo enfocado en programación que promete una potencia similar a su tope de gama pero costando una quinta parte. Con esto buscan que la automatización de tareas complejas sea accesible para cualquier usuario o empresa."
     },
     {
-      "title": "Filtraciones sobre la salida a la bolsa de Anthropic",
-      "brief": "La empresa creadora de Claude sorprendió a todos tras filtrarse documentos de su salida a la bolsa donde advierte riesgos catastróficos para la humanidad.",
-      "detail": "Los papeles preliminares de la oferta pública revelaron pérdidas por más de cuarenta mil millones de dólares el año pasado y una fuerte dependencia de grandes socios tecnológicos. A pesar de esto, la compañía aspira a conseguir una valuación de dos billones de dólares, mientras su director pide públicamente que los gobiernos regulen con mayor firmeza al sector."
+      "title": "La Comisión Federal de Comercio investiga a OpenAI y Anthropic por seguridad",
+      "brief": "La Comisión Federal de Comercio de Estados Unidos abrió una investigación sobre OpenAI y Anthropic para evaluar riesgos en sus modelos.",
+      "detail": "Los reguladores norteamericanos quieren revisar de cerca si los productos de estas compañías representan algún peligro para el público o los consumidores. La medida pone la lupa sobre el desarrollo acelerado de las empresas líderes del sector tecnológico. Por ahora las autoridades están solicitando información detallada para determinar si corresponde aplicar sanciones o límites."
     },
     {
-      "title": "OpenAI busca financiamiento pero posterga su debut bursátil",
-      "brief": "OpenAI negocia conseguir treinta mil millones de dólares de inversión mientras aclara que no saldrá a la bolsa hasta garantizar modelos totalmente seguros.",
-      "detail": "La compañía fundada por Sam Altman apunta a una valuación de casi un billón y medio de dólares en esta ronda de financiamiento. Sin embargo, el director ejecutivo remarcó que todavía no tienen una fecha fija para cotizar en el mercado porque priorizan resolver primero los problemas de seguridad en sus sistemas."
+      "title": "Meta niega que su nuevo agente lea mensajes privados",
+      "brief": "Meta desmintió que su nuevo agente inteligente Muse acceda a los mensajes privados de los usuarios sin pedirles una autorización explícita.",
+      "detail": "La polémica surgió cuando un periodista denunció que el sistema leyó sus conversaciones privadas en una computadora Mac incluso con los permisos desactivados. La empresa aseguró que el agente no tiene forma técnica de revisar esa información a menos que el usuario lo permita de manera directa. El cruce vuelve a poner en discusión la privacidad en las herramientas que operan de fondo en los dispositivos."
     },
     {
-      "title": "Decreto en Estados Unidos cambia la denominación oficial",
-      "brief": "El presidente Donald Trump firmó un decreto que obliga a las agencias oficiales estadounidenses a reemplazar el término inteligencia artificial por superinteligencia.",
-      "detail": "A partir de esta orden ejecutiva, todas las páginas oficiales, comunicados de prensa y documentos de políticas del gobierno federal deberán adoptar la nueva denominación de manera obligatoria. El mandatario justificó la medida diciendo que la palabra súper es la mejor de todas y la más simple para definir esta tecnología."
+      "title": "Google prueba pagar a medios por contenidos usados en búsquedas",
+      "brief": "Google inició un programa piloto para pagar a unos cien medios de comunicación por el contenido que usa en sus resúmenes inteligentes.",
+      "detail": "Esta medida llega en medio de fuertes quejas de editores que vieron caer el tráfico a sus sitios web por culpa de las respuestas automáticas del buscador. Por el momento es una prueba acotada para compensar a los creadores mientras se analiza un modelo más sostenible para la industria. Habrá que ver si este esquema logra calmar el malestar generalizado de los portales de noticias."
     }
   ]
 }
