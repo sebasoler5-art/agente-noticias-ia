@@ -1,26 +1,26 @@
 {
-  "date": "2026-09-30",
-  "updated_at": "2026-09-30T13:34:20-03:00",
+  "date": "2026-10-01",
+  "updated_at": "2026-10-01T11:45:08-03:00",
   "items": [
     {
-      "title": "OpenAI presenta el modelo GPT 6.1 Sol y los asistentes Dots",
-      "brief": "OpenAI presentó a Dots, unos asistentes que trabajan de fondo en tus tareas, junto a un nuevo modelo mucho más barato.",
-      "detail": "En su evento anual para desarrolladores, mostraron esta herramienta que compite con las propuestas de Meta y funciona de forma autónoma. Además lanzaron GPT 6.1 Sol, un modelo enfocado en programación que promete una potencia similar a su tope de gama pero costando una quinta parte. Con esto buscan que la automatización de tareas complejas sea accesible para cualquier usuario o empresa."
+      "title": "Google presenta Gemini 4 Argon",
+      "brief": "Google lanzó Gemini 4 Argon, su modelo de inteligencia artificial más potente hasta la fecha, pensado para programación y tareas complejas de ciberseguridad.",
+      "detail": "El nuevo desarrollo promete un rendimiento de punta en ingeniería de software y tareas empresariales complejas. Sin embargo, desde la empresa avisaron que van a limitar su acceso inicial únicamente a defensores cibernéticos de confianza."
     },
     {
-      "title": "La Comisión Federal de Comercio investiga a OpenAI y Anthropic por seguridad",
-      "brief": "La Comisión Federal de Comercio de Estados Unidos abrió una investigación sobre OpenAI y Anthropic para evaluar riesgos en sus modelos.",
-      "detail": "Los reguladores norteamericanos quieren revisar de cerca si los productos de estas compañías representan algún peligro para el público o los consumidores. La medida pone la lupa sobre el desarrollo acelerado de las empresas líderes del sector tecnológico. Por ahora las autoridades están solicitando información detallada para determinar si corresponde aplicar sanciones o límites."
+      "title": "OpenAI lanza Dots y GPT-6.1 Sol",
+      "brief": "OpenAI anunció Dots, unos asistentes virtuales capaces de ejecutar proyectos complejos, junto a un nuevo modelo más económico llamado GPT-6.1 Sol.",
+      "detail": "Durante su conferencia anual para desarrolladores, la empresa mostró estos agentes proactivos impulsados por su tecnología Astra para competirle directamente a Meta. Además, presentaron Sol, una alternativa pensada para escribir código que cuesta apenas una quinta parte que sus modelos principales."
     },
     {
-      "title": "Meta niega que su nuevo agente lea mensajes privados",
-      "brief": "Meta desmintió que su nuevo agente inteligente Muse acceda a los mensajes privados de los usuarios sin pedirles una autorización explícita.",
-      "detail": "La polémica surgió cuando un periodista denunció que el sistema leyó sus conversaciones privadas en una computadora Mac incluso con los permisos desactivados. La empresa aseguró que el agente no tiene forma técnica de revisar esa información a menos que el usuario lo permita de manera directa. El cruce vuelve a poner en discusión la privacidad en las herramientas que operan de fondo en los dispositivos."
+      "title": "Acuerdo millonario entre Broadcom y Anthropic",
+      "brief": "El fabricante de componentes Broadcom le prestará hasta cuarenta y dos mil millones de dólares a la firma Anthropic para financiar el alquiler de procesadores.",
+      "detail": "El acuerdo busca garantizarle a los creadores del asistente Claude la potencia de cálculo necesaria para entrenar sus próximos sistemas. Con esta movida financiera sin precedentes, ambas compañías profundizan su alianza para competir en la carrera de infraestructura tecnológica frente a los gigantes del sector."
     },
     {
-      "title": "Google prueba pagar a medios por contenidos usados en búsquedas",
-      "brief": "Google inició un programa piloto para pagar a unos cien medios de comunicación por el contenido que usa en sus resúmenes inteligentes.",
-      "detail": "Esta medida llega en medio de fuertes quejas de editores que vieron caer el tráfico a sus sitios web por culpa de las respuestas automáticas del buscador. Por el momento es una prueba acotada para compensar a los creadores mientras se analiza un modelo más sostenible para la industria. Habrá que ver si este esquema logra calmar el malestar generalizado de los portales de noticias."
+      "title": "Reddit bloquea sus accesos por los robots de datos",
+      "brief": "Reddit canceló sus fuentes de noticias automáticas y limitó el acceso a sus datos para evitar que los robots de inteligencia artificial extraigan su contenido.",
+      "detail": "La plataforma tomó esta medida drástica tras detectar que varias empresas venían usando sus foros para recolectar información pública sin pagar ni pedir permiso. De esta forma, buscan blindar todo el material generado por sus usuarios ante el avance del entrenamiento masivo de modelos."
     }
   ]
 }
