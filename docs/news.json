@@ -1,26 +1,26 @@
 {
   "date": "2026-10-01",
-  "updated_at": "2026-10-01T11:45:08-03:00",
+  "updated_at": "2026-10-01T14:11:53-03:00",
   "items": [
     {
       "title": "Google presenta Gemini 4 Argon",
-      "brief": "Google lanzó Gemini 4 Argon, su modelo de inteligencia artificial más potente hasta la fecha, pensado para programación y tareas complejas de ciberseguridad.",
-      "detail": "El nuevo desarrollo promete un rendimiento de punta en ingeniería de software y tareas empresariales complejas. Sin embargo, desde la empresa avisaron que van a limitar su acceso inicial únicamente a defensores cibernéticos de confianza."
+      "brief": "Google lanzó Gemini 4 Argon, su modelo más potente hasta la fecha enfocado en programación y ciberseguridad.",
+      "detail": "Según la empresa, este nuevo desarrollo alcanza un rendimiento de frontera en tareas complejas de ingeniería de software y finanzas. Por ahora no está abierto a todo el mundo, ya que limitaron el acceso exclusivamente a defensores informáticos de confianza."
     },
     {
-      "title": "OpenAI lanza Dots y GPT-6.1 Sol",
-      "brief": "OpenAI anunció Dots, unos asistentes virtuales capaces de ejecutar proyectos complejos, junto a un nuevo modelo más económico llamado GPT-6.1 Sol.",
-      "detail": "Durante su conferencia anual para desarrolladores, la empresa mostró estos agentes proactivos impulsados por su tecnología Astra para competirle directamente a Meta. Además, presentaron Sol, una alternativa pensada para escribir código que cuesta apenas una quinta parte que sus modelos principales."
+      "title": "OpenAI lanza nueva generacion de modelos y agentes",
+      "brief": "OpenAI presentó en su conferencia anual sus nuevos modelos GPT-6 y una plataforma de agentes autónomos llamada Dots.",
+      "detail": "Durante el evento anunciaron el modelo GPT-6 Astra junto a una versión más económica llamada Sol, pensada para tareas de código a menor costo. Además mostraron a Dots, que son asistentes proactivos diseñados para encarar proyectos complejos y avanzar con el trabajo diario casi sin supervisión."
     },
     {
-      "title": "Acuerdo millonario entre Broadcom y Anthropic",
-      "brief": "El fabricante de componentes Broadcom le prestará hasta cuarenta y dos mil millones de dólares a la firma Anthropic para financiar el alquiler de procesadores.",
-      "detail": "El acuerdo busca garantizarle a los creadores del asistente Claude la potencia de cálculo necesaria para entrenar sus próximos sistemas. Con esta movida financiera sin precedentes, ambas compañías profundizan su alianza para competir en la carrera de infraestructura tecnológica frente a los gigantes del sector."
+      "title": "Broadcom financia a Anthropic con miles de millones",
+      "brief": "La empresa de semiconductores Broadcom acordó prestarle hasta 42 mil millones de dólares a Anthropic para alquilar procesadores.",
+      "detail": "El acuerdo le garantiza a los creadores del asistente Claude la potencia de cómputo necesaria para seguir entrenando sus próximos sistemas de inteligencia artificial. Esta jugada deja en evidencia las sumas astronómicas que se están manejando para sostener la infraestructura de los modelos más avanzados."
     },
     {
-      "title": "Reddit bloquea sus accesos por los robots de datos",
-      "brief": "Reddit canceló sus fuentes de noticias automáticas y limitó el acceso a sus datos para evitar que los robots de inteligencia artificial extraigan su contenido.",
-      "detail": "La plataforma tomó esta medida drástica tras detectar que varias empresas venían usando sus foros para recolectar información pública sin pagar ni pedir permiso. De esta forma, buscan blindar todo el material generado por sus usuarios ante el avance del entrenamiento masivo de modelos."
+      "title": "Acuerdo de autorregulacion de seguridad en Estados Unidos",
+      "brief": "Los principales directivos de inteligencia artificial acordaron pautas de autorregulación bajo un nuevo compromiso impulsado por el gobierno estadounidense.",
+      "detail": "El pacto establece un compromiso moral para que las propias empresas vigilen y contengan los riesgos de sus tecnologías más potentes. La iniciativa busca que los grandes laboratorios se controlen a sí mismos en lugar de depender de normativas estatales más duras."
     }
   ]
 }
