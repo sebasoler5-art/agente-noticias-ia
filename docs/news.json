@@ -1,26 +1,26 @@
 {
-  "date": "2026-10-01",
-  "updated_at": "2026-10-01T14:11:53-03:00",
+  "date": "2026-10-02",
+  "updated_at": "2026-10-02T13:25:31-03:00",
   "items": [
     {
-      "title": "Google presenta Gemini 4 Argon",
-      "brief": "Google lanzó Gemini 4 Argon, su modelo más potente hasta la fecha enfocado en programación y ciberseguridad.",
-      "detail": "Según la empresa, este nuevo desarrollo alcanza un rendimiento de frontera en tareas complejas de ingeniería de software y finanzas. Por ahora no está abierto a todo el mundo, ya que limitaron el acceso exclusivamente a defensores informáticos de confianza."
+      "title": "OpenAI presenta su agente Dots y nuevos modelos GPT-6",
+      "brief": "OpenAI lanzo durante su evento anual a Dots, un nuevo asistente autonomo impulsado por su proxima generacion de modelos GPT-6.",
+      "detail": "En su conferencia para desarrolladores, la empresa mostro a Dots como un agente capaz de resolver tareas complejas de forma proactiva para competir con Meta. Ademas presentaron a GPT-6 Astra y una version mas economica llamada Sol para tareas profesionales y de programacion. La idea de la compania es ofrecer herramientas que automaticen flujos de trabajo enteros sin requerir supervision constante."
     },
     {
-      "title": "OpenAI lanza nueva generacion de modelos y agentes",
-      "brief": "OpenAI presentó en su conferencia anual sus nuevos modelos GPT-6 y una plataforma de agentes autónomos llamada Dots.",
-      "detail": "Durante el evento anunciaron el modelo GPT-6 Astra junto a una versión más económica llamada Sol, pensada para tareas de código a menor costo. Además mostraron a Dots, que son asistentes proactivos diseñados para encarar proyectos complejos y avanzar con el trabajo diario casi sin supervisión."
+      "title": "Google anuncia Gemini 4 Argon con acceso restringido",
+      "brief": "Google presento Gemini 4 Argon, su modelo mas potente hasta la fecha, pero limito su acceso unicamente a defensores de ciberseguridad.",
+      "detail": "Segun contaron desde Google DeepMind, la compania de investigacion de la empresa, el sistema se destaca en programacion compleja, finanzas y defensa informatica. Por ahora no lo van a abrir al publico general porque consideran que sus capacidades son demasiado avanzadas. Quieren asegurarse de que organizaciones confiables lo prueben primero para mitigar riesgos criticos en la red."
     },
     {
-      "title": "Broadcom financia a Anthropic con miles de millones",
-      "brief": "La empresa de semiconductores Broadcom acordó prestarle hasta 42 mil millones de dólares a Anthropic para alquilar procesadores.",
-      "detail": "El acuerdo le garantiza a los creadores del asistente Claude la potencia de cómputo necesaria para seguir entrenando sus próximos sistemas de inteligencia artificial. Esta jugada deja en evidencia las sumas astronómicas que se están manejando para sostener la infraestructura de los modelos más avanzados."
+      "title": "La justicia estadounidense respalda los resumenes con inteligencia artificial de Google",
+      "brief": "Un juez federal de Estados Unidos desestimo dos demandas antimonopolio que acusaban a Google de robar trafico web con sus resumenes.",
+      "detail": "Las demandas habian sido presentadas por la plataforma educativa Chegg y por la empresa de medios Penske Media, duena de Rolling Stone. Ambas aseguraban que las respuestas generadas directamente en el buscador destruyen las visitas a los sitios originales. El juez finalmente le dio la razon a Google y considero que no hubo una conducta ilegal para frenar la competencia."
     },
     {
-      "title": "Acuerdo de autorregulacion de seguridad en Estados Unidos",
-      "brief": "Los principales directivos de inteligencia artificial acordaron pautas de autorregulación bajo un nuevo compromiso impulsado por el gobierno estadounidense.",
-      "detail": "El pacto establece un compromiso moral para que las propias empresas vigilen y contengan los riesgos de sus tecnologías más potentes. La iniciativa busca que los grandes laboratorios se controlen a sí mismos en lugar de depender de normativas estatales más duras."
+      "title": "Anthropic advierte sobre riesgos comerciales con el gobierno de Estados Unidos",
+      "brief": "La empresa de inteligencia artificial Anthropic advirtio en documentos para salir a bolsa que las presiones del gobierno podrian danar su negocio.",
+      "detail": "La informacion surgio de su prospecto preliminar para salir al mercado financiero y llega justo cuando trascienden reclamos del Pentagono sobre su tecnologia. Desde la creadora del asistente Claude explicaron que las exigencias estatales podrian complicar sus acuerdos con clientes comerciales. Todo esto refleja la creciente tension entre las empresas punteras del sector y las agencias de defensa de ese pais."
     }
   ]
 }
