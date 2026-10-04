@@ -1,26 +1,26 @@
 {
-  "date": "2026-10-03",
-  "updated_at": "2026-10-03T11:59:27-03:00",
+  "date": "2026-10-04",
+  "updated_at": "2026-10-04T12:34:05-03:00",
   "items": [
     {
-      "title": "OpenAI lanza sus agentes Dots",
-      "brief": "OpenAI presentó Dots, una nueva plataforma de asistentes capaces de coordinar proyectos complejos de trabajo y resolver tareas cotidianas sin intervención constante.",
-      "detail": "La idea de la empresa es que estos agentes autónomos avancen con tus tareas pendientes de fondo, desde preparar reportes hasta coordinar cosas de todos los días. Se lanzaron junto con novedades para su familia de modelos GPT seis, buscando que la inteligencia artificial pase de solo contestar preguntas a ejecutar trabajo real."
+      "title": "Apple restringe accesos en Mac por los agentes de IA",
+      "brief": "Apple anunció que va a limitar los permisos del disco en Mac porque los agentes de inteligencia artificial aumentan los riesgos de seguridad.",
+      "detail": "La empresa explicó que estos programas autónomos son cada vez más capaces y pueden meterse en tus archivos personales, correos y el historial de navegación sin que te des cuenta. Por eso, decidieron ajustar los controles para que ninguna aplicación reciba semejante nivel de acceso a ciegas. La idea es que vos tengas la última palabra antes de habilitar permisos tan invasivos."
     },
     {
-      "title": "Apple restringe el acceso al disco en Mac",
-      "brief": "Apple anunció que limitará los permisos del sistema en computadoras Mac para evitar que los agentes autónomos accedan a datos privados sin control.",
-      "detail": "La empresa descubrió que darle acceso total al disco a programas potenciados con inteligencia artificial representa un riesgo enorme para archivos, correos e historial de navegación. Con esta medida, van a sumar trabas de seguridad para que ningún software tome control absoluto de tu información sin una confirmación explícita."
+      "title": "OpenAI presentó a Dots, sus nuevos asistentes proactivos",
+      "brief": "OpenAI presentó oficialmente Dots, una plataforma de asistentes autónomos pensados para resolver tareas complejas de trabajo y proyectos cotidianos.",
+      "detail": "Se trata de pequeños agentes virtuales diseñados principalmente para el entorno laboral, aunque también pueden darte una mano con cosas del día a día. Además, la compañía anunció el modelo GPT seis punto uno Sol, una versión orientada a programación que busca ofrecer alta capacidad a una quinta parte del costo habitual."
     },
     {
-      "title": "Meta libera el código de Muse para crear dispositivos",
-      "brief": "Meta publicó de forma abierta el código de su asistente Muse para que cualquier desarrollador pueda integrarlo en pantallas y aparatos del hogar.",
-      "detail": "La propuesta busca llevar su modelo a todo tipo de artefactos cotidianos, como pequeños monitores de tinta electrónica o adaptadores de televisión. Quieren que la comunidad fabrique sus propios dispositivos inteligentes en lugar de depender únicamente de los productos comerciales tradicionales."
+      "title": "Renuncia en OpenAI con críticas a la seguridad",
+      "brief": "Un referente clave de seguridad en OpenAI renunció a su puesto advirtiendo públicamente que la cultura interna de la empresa está rota.",
+      "detail": "Se trata de David Robinson, quien se encargaba de redactar los informes de seguridad que acompañaban cada lanzamiento importante de la firma. El investigador decidió dar el portazo a través de una columna de opinión para alertar sobre la falta de precauciones en el desarrollo de la tecnología. Con esta salida, vuelve a encenderse el debate sobre el ritmo acelerado de la compañía."
     },
     {
-      "title": "Anthropic capacitará a diez mil ingenieros",
-      "brief": "Anthropic destinará cien millones de dólares para formar a diez mil ingenieros especializados en el desarrollo seguro de inteligencia artificial de frontera.",
-      "detail": "El programa se llama Claude Frontier Academy y busca cerrar la enorme brecha de talento técnico que hoy frena a la industria. Con esto, la empresa apunta a consolidar un ecosistema de profesionales preparados para implementar y auditar modelos avanzados a gran escala."
+      "title": "Meta libera el código de su agente Muse para crear dispositivos",
+      "brief": "Meta liberó el código fuente de su agente inteligente Muse para que cualquier desarrollador pueda fabricar sus propios dispositivos físicos.",
+      "detail": "La compañía busca que la gente integre este asistente en cualquier aparato del hogar, desde pantallas de tinta electrónica hasta televisores. Al regalar el software, pretenden acelerar la adopción de sus agentes en el mundo real frente a la competencia. Queda en manos de la comunidad inventar aparatos creativos con esta tecnología."
     }
   ]
 }
