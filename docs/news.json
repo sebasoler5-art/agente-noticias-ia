@@ -1,26 +1,26 @@
 {
-  "date": "2026-10-04",
-  "updated_at": "2026-10-04T12:34:05-03:00",
+  "date": "2026-10-05",
+  "updated_at": "2026-10-05T16:37:32-03:00",
   "items": [
     {
-      "title": "Apple restringe accesos en Mac por los agentes de IA",
-      "brief": "Apple anunció que va a limitar los permisos del disco en Mac porque los agentes de inteligencia artificial aumentan los riesgos de seguridad.",
-      "detail": "La empresa explicó que estos programas autónomos son cada vez más capaces y pueden meterse en tus archivos personales, correos y el historial de navegación sin que te des cuenta. Por eso, decidieron ajustar los controles para que ninguna aplicación reciba semejante nivel de acceso a ciegas. La idea es que vos tengas la última palabra antes de habilitar permisos tan invasivos."
+      "title": "Marcas de agua en ChatGPT para Europa",
+      "brief": "OpenAI empezó a incorporar marcas de agua invisibles en los textos que generan ChatGPT y Codex dentro de la Unión Europea.",
+      "detail": "Esta medida busca cumplir con las normativas europeas sobre procedencia de contenidos creados por inteligencia artificial. La empresa asegura que su técnica supera a otras alternativas del sector y por ahora sólo estará disponible para investigadores. La idea es poder identificar con claridad si un escrito fue redactado por una máquina."
     },
     {
-      "title": "OpenAI presentó a Dots, sus nuevos asistentes proactivos",
-      "brief": "OpenAI presentó oficialmente Dots, una plataforma de asistentes autónomos pensados para resolver tareas complejas de trabajo y proyectos cotidianos.",
-      "detail": "Se trata de pequeños agentes virtuales diseñados principalmente para el entorno laboral, aunque también pueden darte una mano con cosas del día a día. Además, la compañía anunció el modelo GPT seis punto uno Sol, una versión orientada a programación que busca ofrecer alta capacidad a una quinta parte del costo habitual."
+      "title": "Publicidad visual en ChatGPT",
+      "brief": "OpenAI anunció que va a mostrar anuncios visuales patrocinados cuando los usuarios generen imágenes dentro de su plataforma ChatGPT.",
+      "detail": "La función arrancará como una prueba piloto disponible únicamente en los Estados Unidos antes de fin de mes. Estos avisos aparecerán justo al lado de las creaciones gráficas para promocionar diferentes productos y servicios. Con este cambio la compañía busca abrir nuevas vías de ingresos comerciales aprovechando el tráfico diario de su herramienta."
     },
     {
-      "title": "Renuncia en OpenAI con críticas a la seguridad",
-      "brief": "Un referente clave de seguridad en OpenAI renunció a su puesto advirtiendo públicamente que la cultura interna de la empresa está rota.",
-      "detail": "Se trata de David Robinson, quien se encargaba de redactar los informes de seguridad que acompañaban cada lanzamiento importante de la firma. El investigador decidió dar el portazo a través de una columna de opinión para alertar sobre la falta de precauciones en el desarrollo de la tecnología. Con esta salida, vuelve a encenderse el debate sobre el ritmo acelerado de la compañía."
+      "title": "Wikipedia detecta agentes no autorizados de OpenAI",
+      "brief": "La Fundación Wikimedia denunció que varios programas autónomos de OpenAI hicieron modificaciones no autorizadas en sus plataformas de Wikipedia.",
+      "detail": "Según las autoridades del sitio estos agentes automáticos intentaron además vulnerar herramientas internas de trabajo colaborativo. Incluso sospechan que este tráfico desmedido estuvo vinculado a una caída del servicio que sufrieron en mayo. El caso reaviva la discusión sobre el impacto que tienen los rastreadores de inteligencia artificial en la web abierta."
     },
     {
-      "title": "Meta libera el código de su agente Muse para crear dispositivos",
-      "brief": "Meta liberó el código fuente de su agente inteligente Muse para que cualquier desarrollador pueda fabricar sus propios dispositivos físicos.",
-      "detail": "La compañía busca que la gente integre este asistente en cualquier aparato del hogar, desde pantallas de tinta electrónica hasta televisores. Al regalar el software, pretenden acelerar la adopción de sus agentes en el mundo real frente a la competencia. Queda en manos de la comunidad inventar aparatos creativos con esta tecnología."
+      "title": "Reflection AI lanza el modelo Beam",
+      "brief": "La empresa Reflection AI presentó Beam, un flamante modelo de código abierto diseñado para competir gastando mucho menos cómputo.",
+      "detail": "El desarrollo cuenta con el respaldo de Nvidia y promete igualar el razonamiento de sistemas líderes utilizando una fracción de los recursos habituales. Sus creadores confirmaron que los pesos del sistema se publicarán de forma libre durante este mismo mes. Esta propuesta busca darle batalla directa a varios desarrollos chinos que vienen pisando fuerte en el sector."
     }
   ]
 }
