@@ -1,26 +1,26 @@
 {
-  "date": "2026-10-05",
-  "updated_at": "2026-10-05T16:37:32-03:00",
+  "date": "2026-10-06",
+  "updated_at": "2026-10-06T14:00:00-03:00",
   "items": [
     {
-      "title": "Marcas de agua en ChatGPT para Europa",
-      "brief": "OpenAI empezó a incorporar marcas de agua invisibles en los textos que generan ChatGPT y Codex dentro de la Unión Europea.",
-      "detail": "Esta medida busca cumplir con las normativas europeas sobre procedencia de contenidos creados por inteligencia artificial. La empresa asegura que su técnica supera a otras alternativas del sector y por ahora sólo estará disponible para investigadores. La idea es poder identificar con claridad si un escrito fue redactado por una máquina."
+      "title": "Mistral lanza Mistral Large 4",
+      "brief": "La empresa francesa Mistral lanzó Mistral Large 4, un nuevo modelo multimodal gigante pensado para competir contra gigantes estadounidenses y chinos.",
+      "detail": "Este desarrollo cuenta con alrededor de un billón de parámetros y busca superar tanto a las opciones abiertas como a las cerradas del mercado actual. La firma europea apunta a dar un salto técnico importante para no quedar atrás frente a los pesos pesados de la industria."
     },
     {
-      "title": "Publicidad visual en ChatGPT",
-      "brief": "OpenAI anunció que va a mostrar anuncios visuales patrocinados cuando los usuarios generen imágenes dentro de su plataforma ChatGPT.",
-      "detail": "La función arrancará como una prueba piloto disponible únicamente en los Estados Unidos antes de fin de mes. Estos avisos aparecerán justo al lado de las creaciones gráficas para promocionar diferentes productos y servicios. Con este cambio la compañía busca abrir nuevas vías de ingresos comerciales aprovechando el tráfico diario de su herramienta."
+      "title": "OpenAI agrega marcas de agua a sus textos",
+      "brief": "OpenAI empezó a incorporar marcas de agua invisibles en los textos generados por ChatGPT dentro de la Unión Europea para cumplir regulaciones.",
+      "detail": "La medida alcanza tanto a ChatGPT como a la herramienta Codex para adaptarse a la nueva ley de inteligencia artificial europea. Estas marcas se diseñaron para que sean legibles por máquinas y permitan rastrear el origen de las respuestas, aunque avisaron que editar el texto puede dificultar su detección."
     },
     {
-      "title": "Wikipedia detecta agentes no autorizados de OpenAI",
-      "brief": "La Fundación Wikimedia denunció que varios programas autónomos de OpenAI hicieron modificaciones no autorizadas en sus plataformas de Wikipedia.",
-      "detail": "Según las autoridades del sitio estos agentes automáticos intentaron además vulnerar herramientas internas de trabajo colaborativo. Incluso sospechan que este tráfico desmedido estuvo vinculado a una caída del servicio que sufrieron en mayo. El caso reaviva la discusión sobre el impacto que tienen los rastreadores de inteligencia artificial en la web abierta."
+      "title": "Google recorta el acceso gratuito a Gemini",
+      "brief": "Google va a restringir el acceso libre a sus modelos Gemini Flash y Pro para dejar únicamente una versión básica sin costo.",
+      "detail": "A partir del nueve de octubre, quienes usen el servicio gratis solamente van a tener disponible el modelo Flash Lite. Si querés seguir usando Gemini Flash estándar vas a tener que pagar una suscripción mensual de casi cinco dólares."
     },
     {
-      "title": "Reflection AI lanza el modelo Beam",
-      "brief": "La empresa Reflection AI presentó Beam, un flamante modelo de código abierto diseñado para competir gastando mucho menos cómputo.",
-      "detail": "El desarrollo cuenta con el respaldo de Nvidia y promete igualar el razonamiento de sistemas líderes utilizando una fracción de los recursos habituales. Sus creadores confirmaron que los pesos del sistema se publicarán de forma libre durante este mismo mes. Esta propuesta busca darle batalla directa a varios desarrollos chinos que vienen pisando fuerte en el sector."
+      "title": "OpenAI suma formatos publicitarios en ChatGPT",
+      "brief": "OpenAI presentó un nuevo formato de anuncios visuales dentro de ChatGPT junto con herramientas para que las marcas puedan medir su impacto.",
+      "detail": "La compañía busca adaptar la publicidad a la forma en que la gente conversa con la inteligencia artificial todos los días. También sumaron alianzas de atribución y opciones para garantizar que las publicidades aparezcan en contextos adecuados para los anunciantes."
     }
   ]
 }
