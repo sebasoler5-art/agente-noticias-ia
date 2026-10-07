@@ -1,26 +1,26 @@
 {
-  "date": "2026-10-06",
-  "updated_at": "2026-10-06T14:00:00-03:00",
+  "date": "2026-10-07",
+  "updated_at": "2026-10-07T14:36:55-03:00",
   "items": [
     {
-      "title": "Mistral lanza Mistral Large 4",
-      "brief": "La empresa francesa Mistral lanzó Mistral Large 4, un nuevo modelo multimodal gigante pensado para competir contra gigantes estadounidenses y chinos.",
-      "detail": "Este desarrollo cuenta con alrededor de un billón de parámetros y busca superar tanto a las opciones abiertas como a las cerradas del mercado actual. La firma europea apunta a dar un salto técnico importante para no quedar atrás frente a los pesos pesados de la industria."
+      "title": "Inversion millonaria en celula virtual",
+      "brief": "Google DeepMind y Meta invirtieron trescientos millones de dolares para crear una celula virtual que ayude a combatir enfermedades complejas.",
+      "detail": "El proyecto esta liderado por la organizacion sin fines de lucro Biohub, fundada por Mark Zuckerberg y Priscilla Chan. La iniciativa tambien cuenta con el apoyo de la empresa de biotecnologia Isomorphic Labs. La idea es usar inteligencia artificial para simular el comportamiento celular y acelerar el descubrimiento de nuevos farmacos."
     },
     {
-      "title": "OpenAI agrega marcas de agua a sus textos",
-      "brief": "OpenAI empezó a incorporar marcas de agua invisibles en los textos generados por ChatGPT dentro de la Unión Europea para cumplir regulaciones.",
-      "detail": "La medida alcanza tanto a ChatGPT como a la herramienta Codex para adaptarse a la nueva ley de inteligencia artificial europea. Estas marcas se diseñaron para que sean legibles por máquinas y permitan rastrear el origen de las respuestas, aunque avisaron que editar el texto puede dificultar su detección."
+      "title": "OpenAI avanza en matematicas complejas",
+      "brief": "OpenAI publico soluciones a problemas matematicos complejos usando un nuevo modelo avanzado que todavia no lanzaron al publico general.",
+      "detail": "La empresa compartio en GitHub las formalizaciones de las pruebas matematicas generadas por este sistema interno. La comunidad academica recibio los resultados con una mezcla de sorpresa y debate sobre el futuro de la investigacion cientifica. Es una demostracion clara de como estos sistemas estan empezando a razonar en ciencias exactas."
     },
     {
-      "title": "Google recorta el acceso gratuito a Gemini",
-      "brief": "Google va a restringir el acceso libre a sus modelos Gemini Flash y Pro para dejar únicamente una versión básica sin costo.",
-      "detail": "A partir del nueve de octubre, quienes usen el servicio gratis solamente van a tener disponible el modelo Flash Lite. Si querés seguir usando Gemini Flash estándar vas a tener que pagar una suscripción mensual de casi cinco dólares."
+      "title": "Google lanza verificador de contenido",
+      "brief": "Google habilito un sitio web publico con su tecnologia SynthID para identificar si una imagen, audio o video fue creado con inteligencia artificial.",
+      "detail": "Cualquier persona puede entrar a la pagina y verificar archivos para saber si pasaron por herramientas generativas. La movida busca darle transparencia al contenido digital frente al avance de los clones y falsificaciones. Es una de las apuestas mas directas de la compania para frenar la desinformacion en la red."
     },
     {
-      "title": "OpenAI suma formatos publicitarios en ChatGPT",
-      "brief": "OpenAI presentó un nuevo formato de anuncios visuales dentro de ChatGPT junto con herramientas para que las marcas puedan medir su impacto.",
-      "detail": "La compañía busca adaptar la publicidad a la forma en que la gente conversa con la inteligencia artificial todos los días. También sumaron alianzas de atribución y opciones para garantizar que las publicidades aparezcan en contextos adecuados para los anunciantes."
+      "title": "Gemini recorta sus opciones gratuitas",
+      "brief": "Google anuncio que a partir del nueve de octubre los usuarios gratuitos de Gemini solo van a poder usar el modelo mas liviano.",
+      "detail": "Hasta ahora se podia probar gratis las versiones Flash y Pro, pero pronto la opcion basica va a quedar reducida al modelo Flash Lite. Quienes quieran usar la version Flash completa van a tener que pagar una suscripcion mensual de casi cinco dolares. Esto marca un cambio de estrategia de la empresa para monetizar mas fuerte el uso de sus asistentes."
     }
   ]
 }
