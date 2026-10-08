@@ -1,26 +1,26 @@
 {
-  "date": "2026-10-07",
-  "updated_at": "2026-10-07T14:36:55-03:00",
+  "date": "2026-10-08",
+  "updated_at": "2026-10-08T14:41:15-03:00",
   "items": [
     {
-      "title": "Inversion millonaria en celula virtual",
-      "brief": "Google DeepMind y Meta invirtieron trescientos millones de dolares para crear una celula virtual que ayude a combatir enfermedades complejas.",
-      "detail": "El proyecto esta liderado por la organizacion sin fines de lucro Biohub, fundada por Mark Zuckerberg y Priscilla Chan. La iniciativa tambien cuenta con el apoyo de la empresa de biotecnologia Isomorphic Labs. La idea es usar inteligencia artificial para simular el comportamiento celular y acelerar el descubrimiento de nuevos farmacos."
+      "title": "OpenAI lanzo GPT 6 con interfaz inteligente",
+      "brief": "OpenAI presento GPT 6 a nivel global junto a una interfaz interactiva que suma graficos, botones y diagramas directamente en el chat.",
+      "detail": "La idea es que las respuestas ya no sean puro texto, sino que puedas interactuar con controles visuales o completar formularios adentro de la charla. Ademas promete tiempos de respuesta mucho mas rapidos y una experiencia dinamica disponible para todos los usuarios."
     },
     {
-      "title": "OpenAI avanza en matematicas complejas",
-      "brief": "OpenAI publico soluciones a problemas matematicos complejos usando un nuevo modelo avanzado que todavia no lanzaron al publico general.",
-      "detail": "La empresa compartio en GitHub las formalizaciones de las pruebas matematicas generadas por este sistema interno. La comunidad academica recibio los resultados con una mezcla de sorpresa y debate sobre el futuro de la investigacion cientifica. Es una demostracion clara de como estos sistemas estan empezando a razonar en ciencias exactas."
+      "title": "Google anuncio un agente universal de Gemini para empresas",
+      "brief": "Google mostro un agente de inteligencia artificial que puede trabajar en segundo plano y manejar tareas entre distintas aplicaciones laborales.",
+      "detail": "La herramienta va a estar disponible en la aplicacion corporativa de Gemini para asignarle pedidos complejos desde un unico panel. El asistente puede operar de fondo cruzando varios programas a la vez, pensado para resolver tramites diarios sin que tengas que cambiar de ventana."
     },
     {
-      "title": "Google lanza verificador de contenido",
-      "brief": "Google habilito un sitio web publico con su tecnologia SynthID para identificar si una imagen, audio o video fue creado con inteligencia artificial.",
-      "detail": "Cualquier persona puede entrar a la pagina y verificar archivos para saber si pasaron por herramientas generativas. La movida busca darle transparencia al contenido digital frente al avance de los clones y falsificaciones. Es una de las apuestas mas directas de la compania para frenar la desinformacion en la red."
+      "title": "Google presento una app para transcribir reuniones sin conexion",
+      "brief": "La compania estreno una aplicacion que transcribe reuniones y resume audios de forma totalmente local en la computadora sin usar internet.",
+      "detail": "Se llama Foresight y por ahora corre de forma gratuita en computadoras con sistema operativo Mac. Usa un modelo propio disenado para ejecutarse en el dispositivo, lo que te asegura privacidad absoluta y funcionamiento rapido sin mandar nada a servidores externos."
     },
     {
-      "title": "Gemini recorta sus opciones gratuitas",
-      "brief": "Google anuncio que a partir del nueve de octubre los usuarios gratuitos de Gemini solo van a poder usar el modelo mas liviano.",
-      "detail": "Hasta ahora se podia probar gratis las versiones Flash y Pro, pero pronto la opcion basica va a quedar reducida al modelo Flash Lite. Quienes quieran usar la version Flash completa van a tener que pagar una suscripcion mensual de casi cinco dolares. Esto marca un cambio de estrategia de la empresa para monetizar mas fuerte el uso de sus asistentes."
+      "title": "Microsoft le dio mas control a Copilot sobre Windows",
+      "brief": "Microsoft anuncio una actualizacion para su asistente Copilot que le permite acceder a archivos locales y ejecutar acciones en el sistema operativo.",
+      "detail": "La novedad se presento a la par de sus nuevas computadoras portatiles con procesadores especializados de Nvidia. La apuesta de la compania es combinar la nube con el procesamiento local para que el asistente pueda ayudarte a organizar carpetas y manejar tus programas directamente."
     }
   ]
 }
