@@ -1,26 +1,26 @@
 {
-  "date": "2026-10-08",
-  "updated_at": "2026-10-08T14:41:15-03:00",
+  "date": "2026-10-09",
+  "updated_at": "2026-10-09T12:09:56-03:00",
   "items": [
     {
-      "title": "OpenAI lanzo GPT 6 con interfaz inteligente",
-      "brief": "OpenAI presento GPT 6 a nivel global junto a una interfaz interactiva que suma graficos, botones y diagramas directamente en el chat.",
-      "detail": "La idea es que las respuestas ya no sean puro texto, sino que puedas interactuar con controles visuales o completar formularios adentro de la charla. Ademas promete tiempos de respuesta mucho mas rapidos y una experiencia dinamica disponible para todos los usuarios."
+      "title": "Google suma agentes autonomos en Gemini",
+      "brief": "Google presentó nuevas funciones para Gemini que le permiten coordinar tareas complejas y operar de forma autónoma dentro de aplicaciones de empresas.",
+      "detail": "La idea es que la herramienta funcione casi como un empleado más, con casilla de correo propia y capacidad para delegar trabajo en otros subagentes. Además, puede conectarse directo con distintos sistemas de la compañía para resolver trámites y proyectos completos de fondo."
     },
     {
-      "title": "Google anuncio un agente universal de Gemini para empresas",
-      "brief": "Google mostro un agente de inteligencia artificial que puede trabajar en segundo plano y manejar tareas entre distintas aplicaciones laborales.",
-      "detail": "La herramienta va a estar disponible en la aplicacion corporativa de Gemini para asignarle pedidos complejos desde un unico panel. El asistente puede operar de fondo cruzando varios programas a la vez, pensado para resolver tramites diarios sin que tengas que cambiar de ventana."
+      "title": "Anthropic prohibe el maltrato a Claude",
+      "brief": "Anthropic actualizó los términos de uso de su sistema Claude para prohibir formalmente el maltrato reiterado o la crueldad hacia el asistente.",
+      "detail": "La empresa aclaró que podés mostrar frustración común y corriente, pero no tolerará el ensañamiento constante o abusivo. Junto con este cambio insólito, también vetaron el uso de la plataforma en interferencia electoral, espionaje o creación de armas."
     },
     {
-      "title": "Google presento una app para transcribir reuniones sin conexion",
-      "brief": "La compania estreno una aplicacion que transcribe reuniones y resume audios de forma totalmente local en la computadora sin usar internet.",
-      "detail": "Se llama Foresight y por ahora corre de forma gratuita en computadoras con sistema operativo Mac. Usa un modelo propio disenado para ejecutarse en el dispositivo, lo que te asegura privacidad absoluta y funcionamiento rapido sin mandar nada a servidores externos."
+      "title": "Reportan menores ingresos en OpenAI",
+      "brief": "Nuevos informes financieros revelaron que los ingresos anualizados de OpenAI son veinte mil millones de dólares inferiores a lo que se calculaba.",
+      "detail": "Hasta hace poco circulaba el rumor de que la empresa generaba unos setenta mil millones de dólares al año, pero los números reales estarían bastante lejos. Aunque el negocio sigue siendo gigantesco, esta diferencia podría enfriar un poco las expectativas de los inversores."
     },
     {
-      "title": "Microsoft le dio mas control a Copilot sobre Windows",
-      "brief": "Microsoft anuncio una actualizacion para su asistente Copilot que le permite acceder a archivos locales y ejecutar acciones en el sistema operativo.",
-      "detail": "La novedad se presento a la par de sus nuevas computadoras portatiles con procesadores especializados de Nvidia. La apuesta de la compania es combinar la nube con el procesamiento local para que el asistente pueda ayudarte a organizar carpetas y manejar tus programas directamente."
+      "title": "Conflicto interno por despidos en OpenAI",
+      "brief": "Tres investigadores de seguridad despedidos por OpenAI publicaron una carta abierta cuestionando la decisión y alertando sobre el clima interno de la compañía.",
+      "detail": "Desde la empresa sostienen que los despidos se debieron a filtraciones y mal manejo de datos confidenciales. Sin embargo, los extrabajadores denuncian que esto genera miedo en el equipo e impide debatir con libertad los riesgos de los nuevos modelos."
     }
   ]
 }
