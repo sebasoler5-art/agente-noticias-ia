@@ -1,26 +1,26 @@
 {
   "date": "2026-10-09",
-  "updated_at": "2026-10-09T12:09:56-03:00",
+  "updated_at": "2026-10-09T14:15:38-03:00",
   "items": [
     {
-      "title": "Google suma agentes autonomos en Gemini",
-      "brief": "Google presentó nuevas funciones para Gemini que le permiten coordinar tareas complejas y operar de forma autónoma dentro de aplicaciones de empresas.",
-      "detail": "La idea es que la herramienta funcione casi como un empleado más, con casilla de correo propia y capacidad para delegar trabajo en otros subagentes. Además, puede conectarse directo con distintos sistemas de la compañía para resolver trámites y proyectos completos de fondo."
+      "title": "Agente universal de Gemini para empresas",
+      "brief": "Google presento un nuevo agente de inteligencia artificial dentro de Gemini que puede realizar tareas laborales complejas cruzando multiples aplicaciones y dispositivos.",
+      "detail": "La herramienta va a estar disponible dentro de la aplicacion de Gemini para empresas y funciona de fondo de manera autonoma. La idea es que puedas charlar con el asistente y pedirle que resuelva cosas de punta a punta sin que tengas que cambiar de ventana a cada rato."
     },
     {
-      "title": "Anthropic prohibe el maltrato a Claude",
-      "brief": "Anthropic actualizó los términos de uso de su sistema Claude para prohibir formalmente el maltrato reiterado o la crueldad hacia el asistente.",
-      "detail": "La empresa aclaró que podés mostrar frustración común y corriente, pero no tolerará el ensañamiento constante o abusivo. Junto con este cambio insólito, también vetaron el uso de la plataforma en interferencia electoral, espionaje o creación de armas."
+      "title": "USA Today demanda a OpenAI",
+      "brief": "El grupo editorial USA Today inicio una demanda millonaria contra OpenAI por copiar cientos de miles de articulos periodisticos para entrenar sus modelos.",
+      "detail": "La compania exige una indemnizacion que supera los doscientos cincuenta millones de dolares por el uso no autorizado de su contenido. El reclamo suma a varios diarios locales que acusan a la empresa tecnologica de apropiarse de su trabajo sin pagar ninguna licencia."
     },
     {
-      "title": "Reportan menores ingresos en OpenAI",
-      "brief": "Nuevos informes financieros revelaron que los ingresos anualizados de OpenAI son veinte mil millones de dólares inferiores a lo que se calculaba.",
-      "detail": "Hasta hace poco circulaba el rumor de que la empresa generaba unos setenta mil millones de dólares al año, pero los números reales estarían bastante lejos. Aunque el negocio sigue siendo gigantesco, esta diferencia podría enfriar un poco las expectativas de los inversores."
+      "title": "Polemica por despidos de seguridad en OpenAI",
+      "brief": "Tres investigadores de seguridad despedidos por OpenAI publicaron una carta advirtiendo que la empresa esta silenciando las alertas sobre riesgos internos.",
+      "detail": "Desde OpenAI aseguraron que las desvinculaciones se debieron a violaciones claras en el manejo de informacion sensible. Sin embargo, los investigadores rechazaron las acusaciones de mala conducta y alertaron que estas medidas generan miedo entre los equipos dedicados a la seguridad."
     },
     {
-      "title": "Conflicto interno por despidos en OpenAI",
-      "brief": "Tres investigadores de seguridad despedidos por OpenAI publicaron una carta abierta cuestionando la decisión y alertando sobre el clima interno de la compañía.",
-      "detail": "Desde la empresa sostienen que los despidos se debieron a filtraciones y mal manejo de datos confidenciales. Sin embargo, los extrabajadores denuncian que esto genera miedo en el equipo e impide debatir con libertad los riesgos de los nuevos modelos."
+      "title": "Anthropic ofrece escaneos gratis para codigo abierto",
+      "brief": "Anthropic lanzo un servicio gratuito que utiliza sus modelos mas avanzados para detectar vulnerabilidades informaticas en proyectos de software libre.",
+      "detail": "El sistema busca ayudar a los desarrolladores a encontrar fallas criticas mucho antes de que puedan ser explotadas. Para aprovecharlo, los proyectos comunitarios solo tienen que anotarse voluntariamente y permitir que los modelos analicen su codigo periodicamente."
     }
   ]
 }
