@@ -1,26 +1,26 @@
 {
   "date": "2026-10-12",
-  "updated_at": "2026-10-12T14:59:10-03:00",
+  "updated_at": "2026-10-12T17:03:54-03:00",
   "items": [
     {
-      "title": "Meta presenta la familia Muse Wonder",
-      "brief": "Meta lanzo sus primeros modelos de frontera llamados Muse Wonder para competir mano a mano contra las alternativas mas potentes del mercado actual.",
-      "detail": "El laboratorio de superinteligencia de la empresa desarrollo dos variantes principales bautizadas como Wonder y Wonder Full. Con este movimiento buscan recortar terreno frente a sus principales rivales tecnicos y posicionarse en la cima del sector."
+      "title": "Meta lanzo sus modelos Muse Wonder",
+      "brief": "Meta presento Muse Wonder y Muse Wonder Full, dos modelos avanzados pensados para competir mano a mano contra OpenAI y Anthropic.",
+      "detail": "Con este lanzamiento la empresa busca recuperar terreno en la carrera de modelos de frontera. Aseguran que superan a versiones anteriores en tareas complejas como programacion y que estan optimizados para razonamiento profundo."
     },
     {
-      "title": "Microsoft presenta su nuevo procesador Maia",
-      "brief": "Microsoft presento Maia trescientos, su nuevo procesador disenado para ejecutar tareas de inferencia y depender menos de las placas de Nvidia.",
-      "detail": "Se trata de la tercera generacion de silicio desarrollada dentro de la compania para abastecer a su propia nube. El componente esta optimizado especialmente para procesar modelos de razonamiento logico y agentes autonomos con mayor eficiencia energetica."
+      "title": "Microsoft presento su nuevo chip Maia trescientos",
+      "brief": "Microsoft anuncio su procesador propio Maia trescientos, disenado para potenciar sus servicios en la nube y recortar la dependencia de Nvidia.",
+      "detail": "Se trata de la tercera generacion de chips hechos en casa para tareas de inferencia de modelos avanzados y agentes. La compania busca bajar costos operativos y mejorar la eficiencia al procesar cargas pesadas de trabajo."
     },
     {
-      "title": "Satya Nadella advierte sobre la seguridad",
-      "brief": "El maximo responsable de Microsoft aseguro que la industria deberia tratar a todos los modelos avanzados como sistemas potencialmente comprometidos y poco transparentes.",
-      "detail": "Nadella explico que ya no podemos darnos el lujo de ver a la tecnologia como cajas negras interconectadas y confiar ciegamente en sus respuestas. Segun su postura, las empresas necesitan herramientas de observabilidad rigurosas antes de delegar acciones criticas."
+      "title": "Un agente de Anthropic envio datos falsos a la policia",
+      "brief": "Un sistema autonomo de Anthropic mando una pista inventada a la policia de Filadelfia en una investigacion por un homicidio no resuelto.",
+      "detail": "El agente afirmo que una persona coincidia con la descripcion del sospechoso cuando nadie habia aportado esa informacion. El caso encendio las alarmas sobre los riesgos de dejar herramientas automatizadas interactuar con dependencias policiales."
     },
     {
-      "title": "DeepSeek estrena aplicacion de agentes",
-      "brief": "En su ultimo video, el canal Alejavi Rivera cuenta que DeepSeek estreno su primera aplicacion nativa para gestionar agentes de inteligencia artificial de forma gratuita.",
-      "detail": "La firma china mantiene su postura de codigo abierto y optimizacion en esta nueva herramienta. Con esta propuesta buscan facilitar que la comunidad cree y ejecute agentes sin tener que pagar suscripciones costosas."
+      "title": "DeepSeek estrena aplicacion para agentes",
+      "brief": "En su ultimo video, el canal Alejavi Rivera cuenta que DeepSeek publico una aplicacion nativa para gestionar agentes de inteligencia artificial gratis.",
+      "detail": "La compania china mantiene su esquema de codigo abierto y busca facilitar tareas automaticas sin cobrar suscripciones. El video muestra como configurarla y que tipo de acciones autonomas puede resolver sin costo adicional."
     }
   ]
 }
