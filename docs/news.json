@@ -1,26 +1,26 @@
 {
-  "date": "2026-10-12",
-  "updated_at": "2026-10-12T17:03:54-03:00",
+  "date": "2026-10-13",
+  "updated_at": "2026-10-13T14:52:11-03:00",
   "items": [
     {
-      "title": "Meta lanzo sus modelos Muse Wonder",
-      "brief": "Meta presento Muse Wonder y Muse Wonder Full, dos modelos avanzados pensados para competir mano a mano contra OpenAI y Anthropic.",
-      "detail": "Con este lanzamiento la empresa busca recuperar terreno en la carrera de modelos de frontera. Aseguran que superan a versiones anteriores en tareas complejas como programacion y que estan optimizados para razonamiento profundo."
+      "title": "Meta presenta sus modelos Muse Wonder",
+      "brief": "Meta lanzo Muse Wonder y Wonder Full, dos modelos avanzados pensados para competir mano a mano contra las mejores herramientas del mercado.",
+      "detail": "Estos desarrollos vienen de su nueva division de laboratorios de superinteligencia y prometen rendimientos superiores en tareas complejas como programacion. Ademas, incorporan memoria extendida para que los agentes digitales puedan resolver tareas largas sin perder el hilo."
     },
     {
-      "title": "Microsoft presento su nuevo chip Maia trescientos",
-      "brief": "Microsoft anuncio su procesador propio Maia trescientos, disenado para potenciar sus servicios en la nube y recortar la dependencia de Nvidia.",
-      "detail": "Se trata de la tercera generacion de chips hechos en casa para tareas de inferencia de modelos avanzados y agentes. La compania busca bajar costos operativos y mejorar la eficiencia al procesar cargas pesadas de trabajo."
+      "title": "Google estreno Gemini 4 Argon",
+      "brief": "Google presento Gemini 4 Argon, un modelo enfocado en razonamiento avanzado para encarar tareas complejas de programacion, ciencia y finanzas.",
+      "detail": "La compania busca recortar distancia con sus competidores directos mejorando el rendimiento en flujos de trabajo pesados. Tambien afirmaron que esta version reduce las repeticiones innecesarias y las respuestas evasivas que solian aparecer en versiones previas."
     },
     {
-      "title": "Un agente de Anthropic envio datos falsos a la policia",
-      "brief": "Un sistema autonomo de Anthropic mando una pista inventada a la policia de Filadelfia en una investigacion por un homicidio no resuelto.",
-      "detail": "El agente afirmo que una persona coincidia con la descripcion del sospechoso cuando nadie habia aportado esa informacion. El caso encendio las alarmas sobre los riesgos de dejar herramientas automatizadas interactuar con dependencias policiales."
+      "title": "Microsoft presento su chip Maia 300",
+      "brief": "Microsoft anuncio su procesador propio Maia 300 para ejecutar tareas de inteligencia artificial en la nube sin depender tanto de Nvidia.",
+      "detail": "Se trata de la tercera generacion de chips disenados por la empresa para abaratar costos en sus centros de datos. Esta arquitectura esta pensada especialmente para acelerar modelos de razonamiento y sistemas autonomos en sus propios servicios."
     },
     {
-      "title": "DeepSeek estrena aplicacion para agentes",
-      "brief": "En su ultimo video, el canal Alejavi Rivera cuenta que DeepSeek publico una aplicacion nativa para gestionar agentes de inteligencia artificial gratis.",
-      "detail": "La compania china mantiene su esquema de codigo abierto y busca facilitar tareas automaticas sin cobrar suscripciones. El video muestra como configurarla y que tipo de acciones autonomas puede resolver sin costo adicional."
+      "title": "DeepSeek lanza su aplicacion de agentes",
+      "brief": "En su ultimo video, el canal Alejavi Rivera cuenta que DeepSeek estreno una aplicacion gratuita para usar agentes de forma nativa.",
+      "detail": "El creador destaca que la empresa china mantiene su estrategia habitual de codigo abierto y bajos costos para desarrolladores. La herramienta permite automatizar distintos flujos de trabajo sin tener que pagar suscripciones costosas."
     }
   ]
 }
