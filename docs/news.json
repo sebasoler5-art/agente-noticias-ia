@@ -1,26 +1,26 @@
 {
-  "date": "2026-10-13",
-  "updated_at": "2026-10-13T14:52:11-03:00",
+  "date": "2026-10-14",
+  "updated_at": "2026-10-14T12:38:48-03:00",
   "items": [
     {
-      "title": "Meta presenta sus modelos Muse Wonder",
-      "brief": "Meta lanzo Muse Wonder y Wonder Full, dos modelos avanzados pensados para competir mano a mano contra las mejores herramientas del mercado.",
-      "detail": "Estos desarrollos vienen de su nueva division de laboratorios de superinteligencia y prometen rendimientos superiores en tareas complejas como programacion. Ademas, incorporan memoria extendida para que los agentes digitales puedan resolver tareas largas sin perder el hilo."
+      "title": "Escandalo de espionaje en OpenAI",
+      "brief": "Arrestaron a un ingeniero de OpenAI tras descubrir un dispositivo de grabacion sofisticado oculto en una sala de reuniones de sus directivos.",
+      "detail": "El acusado fue identificado como Abdulrahman Alfozan, un empleado de treinta y cinco anos que afronta cargos por intentar interceptar comunicaciones orales. La empresa detecto el aparato en sus oficinas y dio aviso inmediato a las autoridades federales. El caso genero un fuerte impacto dentro del sector tecnologico por la confidencialidad que manejan en esas salas."
     },
     {
-      "title": "Google estreno Gemini 4 Argon",
-      "brief": "Google presento Gemini 4 Argon, un modelo enfocado en razonamiento avanzado para encarar tareas complejas de programacion, ciencia y finanzas.",
-      "detail": "La compania busca recortar distancia con sus competidores directos mejorando el rendimiento en flujos de trabajo pesados. Tambien afirmaron que esta version reduce las repeticiones innecesarias y las respuestas evasivas que solian aparecer en versiones previas."
+      "title": "Google lanza Gemini 4 Argon",
+      "brief": "Google presento Gemini 4 Argon, su modelo mas nuevo que promete razonamiento de vanguardia y respuestas mucho menos repetitivas en tareas complejas.",
+      "detail": "Despues de varios meses al margen de la carrera principal, la empresa afirma que este desarrollo compite de igual a igual con los mejores del mercado. Ademas de mejorar la resolucion de flujos de trabajo extensos, buscaron reducir los cliches tipicos del asistente. El modelo ya esta disponible para empezar a probarlo."
     },
     {
-      "title": "Microsoft presento su chip Maia 300",
-      "brief": "Microsoft anuncio su procesador propio Maia 300 para ejecutar tareas de inteligencia artificial en la nube sin depender tanto de Nvidia.",
-      "detail": "Se trata de la tercera generacion de chips disenados por la empresa para abaratar costos en sus centros de datos. Esta arquitectura esta pensada especialmente para acelerar modelos de razonamiento y sistemas autonomos en sus propios servicios."
+      "title": "Quiebra voluntaria de Character punto ai",
+      "brief": "La startup de chatbots Character punto ai se declaro en bancarrota voluntaria para reestructurar sus deudas mediante la justicia estadounidense.",
+      "detail": "Apenas cinco anos despues de iniciar sus operaciones, la empresa recurrio a este mecanismo legal tras enfrentar diversas dificultades comerciales. En paralelo al proceso judicial, trascendio que grandes companias de entretenimiento como Disney ya estan evaluando presentar ofertas para quedarse con sus activos. Habra que ver como sigue la continuidad de su servicio."
     },
     {
-      "title": "DeepSeek lanza su aplicacion de agentes",
-      "brief": "En su ultimo video, el canal Alejavi Rivera cuenta que DeepSeek estreno una aplicacion gratuita para usar agentes de forma nativa.",
-      "detail": "El creador destaca que la empresa china mantiene su estrategia habitual de codigo abierto y bajos costos para desarrolladores. La herramienta permite automatizar distintos flujos de trabajo sin tener que pagar suscripciones costosas."
+      "title": "DeepSeek estrena aplicacion de agentes",
+      "brief": "En su ultimo video, el canal Alejavi Rivera cuenta que la empresa DeepSeek lanzo una aplicacion gratuita para gestionar agentes de forma nativa.",
+      "detail": "El creador resalta que la compania sigue apostando por el codigo abierto y la optimizacion de recursos sin cobrar suscripciones. Segun explica en la demostracion, la herramienta promete ejecutar tareas variadas y resolver pedidos directamente desde el dispositivo. Es una alternativa que busca plantar bandera en el terreno del software autonomo."
     }
   ]
 }
