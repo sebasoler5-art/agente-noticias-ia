@@ -1,26 +1,26 @@
 {
-  "date": "2026-10-14",
-  "updated_at": "2026-10-14T12:38:48-03:00",
+  "date": "2026-10-15",
+  "updated_at": "2026-10-15T07:28:06-03:00",
   "items": [
     {
-      "title": "Escandalo de espionaje en OpenAI",
-      "brief": "Arrestaron a un ingeniero de OpenAI tras descubrir un dispositivo de grabacion sofisticado oculto en una sala de reuniones de sus directivos.",
-      "detail": "El acusado fue identificado como Abdulrahman Alfozan, un empleado de treinta y cinco anos que afronta cargos por intentar interceptar comunicaciones orales. La empresa detecto el aparato en sus oficinas y dio aviso inmediato a las autoridades federales. El caso genero un fuerte impacto dentro del sector tecnologico por la confidencialidad que manejan en esas salas."
+      "title": "Pruebas con Gemini 4 Argon",
+      "brief": "En su ultimo video, el canal Inteligencia Artificial analiza el nuevo modelo Gemini 4 Argon de Google y sus herramientas para computadoras.",
+      "detail": "El conductor resalta la velocidad de procesamiento del modelo y muestra como responde ante tareas complejas en el escritorio. Tambien senala que a Google todavia le falta optimizar la memoria del sistema para que la experiencia resulte mas fluida para el usuario."
     },
     {
-      "title": "Google lanza Gemini 4 Argon",
-      "brief": "Google presento Gemini 4 Argon, su modelo mas nuevo que promete razonamiento de vanguardia y respuestas mucho menos repetitivas en tareas complejas.",
-      "detail": "Despues de varios meses al margen de la carrera principal, la empresa afirma que este desarrollo compite de igual a igual con los mejores del mercado. Ademas de mejorar la resolucion de flujos de trabajo extensos, buscaron reducir los cliches tipicos del asistente. El modelo ya esta disponible para empezar a probarlo."
+      "title": "Detencion por espionaje en OpenAI",
+      "brief": "La justicia acuso a un ingeniero de OpenAI por plantar microfonos en una sala ejecutiva tras consultar tecnicas de ocultamiento a un chatbot.",
+      "detail": "Segun la fiscalia, el acusado utilizo inteligencia artificial para planificar como esconder el grabador y cifrar los archivos de audio. El dispositivo fue detectado en el espacio de reuniones donde los directivos de la empresa discutian temas confidenciales."
     },
     {
-      "title": "Quiebra voluntaria de Character punto ai",
-      "brief": "La startup de chatbots Character punto ai se declaro en bancarrota voluntaria para reestructurar sus deudas mediante la justicia estadounidense.",
-      "detail": "Apenas cinco anos despues de iniciar sus operaciones, la empresa recurrio a este mecanismo legal tras enfrentar diversas dificultades comerciales. En paralelo al proceso judicial, trascendio que grandes companias de entretenimiento como Disney ya estan evaluando presentar ofertas para quedarse con sus activos. Habra que ver como sigue la continuidad de su servicio."
+      "title": "Demandas contra OpenAI en Estados Unidos",
+      "brief": "Ocho estados estadounidenses demandaron a OpenAI tras acusar a la compania de poner en riesgo a ninos y adolescentes con su producto ChatGPT.",
+      "detail": "Las autoridades judiciales afirman que la empresa priorizo las ganancias comerciales por encima de las medidas basicas de contencion para menores. Las demandas exigen reformas estructurales en el diseno del sistema y reclaman la restitucion de ingresos generados por usuarios jovenes."
     },
     {
-      "title": "DeepSeek estrena aplicacion de agentes",
-      "brief": "En su ultimo video, el canal Alejavi Rivera cuenta que la empresa DeepSeek lanzo una aplicacion gratuita para gestionar agentes de forma nativa.",
-      "detail": "El creador resalta que la compania sigue apostando por el codigo abierto y la optimizacion de recursos sin cobrar suscripciones. Segun explica en la demostracion, la herramienta promete ejecutar tareas variadas y resolver pedidos directamente desde el dispositivo. Es una alternativa que busca plantar bandera en el terreno del software autonomo."
+      "title": "Ingresos record para Anthropic",
+      "brief": "La empresa Anthropic registro ingresos de casi diecisiete mil millones de dolares en el tercer trimestre mientras prepara su salida al mercado bursatil.",
+      "detail": "La cifra representa un incremento del cuarenta y cinco por ciento respecto a periodos previos y acelera sus planes de financiamiento publico. Con este resultado, los analistas esperan una de las valuaciones mas altas del sector para la creadora del asistente Claude."
     }
   ]
 }
