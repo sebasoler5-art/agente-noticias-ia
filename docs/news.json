@@ -1,26 +1,26 @@
 {
-  "date": "2026-10-15",
-  "updated_at": "2026-10-15T07:28:06-03:00",
+  "date": "2026-10-16",
+  "updated_at": "2026-10-16T07:15:42-03:00",
   "items": [
     {
-      "title": "Pruebas con Gemini 4 Argon",
-      "brief": "En su ultimo video, el canal Inteligencia Artificial analiza el nuevo modelo Gemini 4 Argon de Google y sus herramientas para computadoras.",
-      "detail": "El conductor resalta la velocidad de procesamiento del modelo y muestra como responde ante tareas complejas en el escritorio. Tambien senala que a Google todavia le falta optimizar la memoria del sistema para que la experiencia resulte mas fluida para el usuario."
+      "title": "Meta lanzó Muse Spark Open",
+      "brief": "Meta presentó su nuevo modelo abierto Muse Spark Open optimizado junto con Apple para correr de forma local en computadoras Mac.",
+      "detail": "El modelo cuenta con pesos abiertos y está pensado para ejecutarse de manera eficiente en los procesadores propios de Apple. Las dos compañías colaboraron para exprimir al máximo el rendimiento en hardware de escritorio. Esto abre la puerta a que los desarrolladores puedan experimentar con modelos potentes sin depender constantemente de la nube."
     },
     {
-      "title": "Detencion por espionaje en OpenAI",
-      "brief": "La justicia acuso a un ingeniero de OpenAI por plantar microfonos en una sala ejecutiva tras consultar tecnicas de ocultamiento a un chatbot.",
-      "detail": "Segun la fiscalia, el acusado utilizo inteligencia artificial para planificar como esconder el grabador y cifrar los archivos de audio. El dispositivo fue detectado en el espacio de reuniones donde los directivos de la empresa discutian temas confidenciales."
+      "title": "Anthropic abre sus puertas a evaluadores externos",
+      "brief": "Anthropic le otorgó acceso interno a investigadores de la organización independiente METR para auditar sus riesgos sin derecho a veto.",
+      "detail": "La organización evaluará las prácticas internas, los posibles incidentes y los sistemas de la empresa de inteligencia artificial con permisos similares a los de un empleado. A diferencia de otros acuerdos, Anthropic renunció a la potestad de bloquear o censurar los informes finales que publique esta entidad. La medida busca brindar mayor transparencia frente a las crecientes dudas sobre la seguridad de los modelos avanzados."
     },
     {
-      "title": "Demandas contra OpenAI en Estados Unidos",
-      "brief": "Ocho estados estadounidenses demandaron a OpenAI tras acusar a la compania de poner en riesgo a ninos y adolescentes con su producto ChatGPT.",
-      "detail": "Las autoridades judiciales afirman que la empresa priorizo las ganancias comerciales por encima de las medidas basicas de contencion para menores. Las demandas exigen reformas estructurales en el diseno del sistema y reclaman la restitucion de ingresos generados por usuarios jovenes."
+      "title": "ChatGPT ahora puede mirar tus pestañas de Chrome",
+      "brief": "La nueva extensión de OpenAI para Chrome permite que ChatGPT interactúe directamente con el contenido de las pestañas que tenés abiertas.",
+      "detail": "Tras dar de baja su proyecto de navegador propio, OpenAI decidió potenciar su extensión oficial para Google Chrome. Los usuarios ahora pueden etiquetar el navegador dentro de la aplicación para que el asistente analice la información de las páginas activas. La función busca simplificar la lectura de artículos y la recolección de datos sin tener que copiar y pegar a cada rato."
     },
     {
-      "title": "Ingresos record para Anthropic",
-      "brief": "La empresa Anthropic registro ingresos de casi diecisiete mil millones de dolares en el tercer trimestre mientras prepara su salida al mercado bursatil.",
-      "detail": "La cifra representa un incremento del cuarenta y cinco por ciento respecto a periodos previos y acelera sus planes de financiamiento publico. Con este resultado, los analistas esperan una de las valuaciones mas altas del sector para la creadora del asistente Claude."
+      "title": "Primeras pruebas con Gemini 4 Argon",
+      "brief": "En su último video, el canal Inteligencia Artificial analiza el nuevo modelo Gemini 4 Argon de Google y sus herramientas de automatización.",
+      "detail": "El creador pone a prueba la velocidad de respuesta del flamante modelo y su desempeño en tareas cotidianas de programación y trabajo. También revisa Antigravity, la función con la que Google busca permitir que la inteligencia artificial controle directamente la computadora. Aunque destaca la potencia general, señala que todavía hace falta pulir la gestión de memoria para el usuario común."
     }
   ]
 }
