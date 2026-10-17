@@ -1,26 +1,26 @@
 {
-  "date": "2026-10-16",
-  "updated_at": "2026-10-16T07:15:42-03:00",
+  "date": "2026-10-17",
+  "updated_at": "2026-10-17T06:49:15-03:00",
   "items": [
     {
-      "title": "Meta lanzó Muse Spark Open",
-      "brief": "Meta presentó su nuevo modelo abierto Muse Spark Open optimizado junto con Apple para correr de forma local en computadoras Mac.",
-      "detail": "El modelo cuenta con pesos abiertos y está pensado para ejecutarse de manera eficiente en los procesadores propios de Apple. Las dos compañías colaboraron para exprimir al máximo el rendimiento en hardware de escritorio. Esto abre la puerta a que los desarrolladores puedan experimentar con modelos potentes sin depender constantemente de la nube."
+      "title": "Meta y Apple llevan un modelo gigante a las computadoras Mac",
+      "brief": "Meta presento su nuevo modelo abierto Muse Spark y se asocio con Apple para correrlo de forma local en computadoras Mac Studio.",
+      "detail": "El modelo cuenta con ochocientos dieciseis mil millones de parametros y busca posicionarse como el mas potente de codigo abierto en Estados Unidos. Gracias al entorno de desarrollo de Apple, ahora es posible ejecutar semejante arquitectura uniendo dos maquinas de escritorio de alta gama."
     },
     {
-      "title": "Anthropic abre sus puertas a evaluadores externos",
-      "brief": "Anthropic le otorgó acceso interno a investigadores de la organización independiente METR para auditar sus riesgos sin derecho a veto.",
-      "detail": "La organización evaluará las prácticas internas, los posibles incidentes y los sistemas de la empresa de inteligencia artificial con permisos similares a los de un empleado. A diferencia de otros acuerdos, Anthropic renunció a la potestad de bloquear o censurar los informes finales que publique esta entidad. La medida busca brindar mayor transparencia frente a las crecientes dudas sobre la seguridad de los modelos avanzados."
+      "title": "ChatGPT ahora puede leer tus pestanas de Chrome",
+      "brief": "OpenAI actualizo su extension para Chrome permitiendo que ChatGPT analice directamente el contenido de las pestanas que tengas abiertas en el navegador.",
+      "detail": "Para usarlo solo hace falta etiquetar a Chrome desde la aplicacion web o de escritorio y el asistente podra ver la informacion activa. Esta funcion llega despues de que la empresa cancelara su propio navegador experimental llamado Atlas."
     },
     {
-      "title": "ChatGPT ahora puede mirar tus pestañas de Chrome",
-      "brief": "La nueva extensión de OpenAI para Chrome permite que ChatGPT interactúe directamente con el contenido de las pestañas que tenés abiertas.",
-      "detail": "Tras dar de baja su proyecto de navegador propio, OpenAI decidió potenciar su extensión oficial para Google Chrome. Los usuarios ahora pueden etiquetar el navegador dentro de la aplicación para que el asistente analice la información de las páginas activas. La función busca simplificar la lectura de artículos y la recolección de datos sin tener que copiar y pegar a cada rato."
+      "title": "Logran ejecutar modelos de lenguaje en una PlayStation cinco",
+      "brief": "Un desarrollador consiguio adaptar la herramienta Llama punto ce pe pe para correr modelos de inteligencia artificial en consolas PlayStation cinco liberadas.",
+      "detail": "El proyecto permite cargar cualquier modelo en formatos optimizados directamente sobre el hardware de la consola sin depender de servidores externos. Es un experimento llamativo que aprovecha la memoria unificada y la potencia grafica del equipo para procesamiento local."
     },
     {
-      "title": "Primeras pruebas con Gemini 4 Argon",
-      "brief": "En su último video, el canal Inteligencia Artificial analiza el nuevo modelo Gemini 4 Argon de Google y sus herramientas de automatización.",
-      "detail": "El creador pone a prueba la velocidad de respuesta del flamante modelo y su desempeño en tareas cotidianas de programación y trabajo. También revisa Antigravity, la función con la que Google busca permitir que la inteligencia artificial controle directamente la computadora. Aunque destaca la potencia general, señala que todavía hace falta pulir la gestión de memoria para el usuario común."
+      "title": "El avance de la inteligencia artificial segun graficas recientes",
+      "brief": "En su ultimo video, el canal Inteligencia Artificial cuenta que la combinacion de varias metricas del sector demuestra un crecimiento tecnologico fuertemente exponencial.",
+      "detail": "El conductor analiza como diferentes curvas de rendimiento apuntan a saltos gigantescos hacia el ano 2027. Por eso plantea que la sociedad todavia no esta lista para la velocidad con la que se estan acelerando estas herramientas."
     }
   ]
 }
