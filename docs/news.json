@@ -1,26 +1,26 @@
 {
-  "date": "2026-10-17",
-  "updated_at": "2026-10-17T06:49:15-03:00",
+  "date": "2026-10-18",
+  "updated_at": "2026-10-18T07:01:07-03:00",
   "items": [
     {
-      "title": "Meta y Apple llevan un modelo gigante a las computadoras Mac",
-      "brief": "Meta presento su nuevo modelo abierto Muse Spark y se asocio con Apple para correrlo de forma local en computadoras Mac Studio.",
-      "detail": "El modelo cuenta con ochocientos dieciseis mil millones de parametros y busca posicionarse como el mas potente de codigo abierto en Estados Unidos. Gracias al entorno de desarrollo de Apple, ahora es posible ejecutar semejante arquitectura uniendo dos maquinas de escritorio de alta gama."
+      "title": "Claude resolvio un enigma criptografico de decadas",
+      "brief": "El modelo de Anthropic logro reconstruir el origen matematico de las curvas criptograficas estandar que tenian en duda a la comunidad.",
+      "detail": "El investigador Filippo Valsorda mostro como Claude descubrio la logica detras de las constantes del algoritmo de firmas digitales que muchos sospechaban que escondia puertas traseras. En apenas media hora, la inteligencia artificial encontro un patron coherente que los expertos no habian podido descular en veinticinco anos. Esto descarta viejas sospechas sobre manipulaciones ocultas de agencias gubernamentales en esos parametros."
     },
     {
-      "title": "ChatGPT ahora puede leer tus pestanas de Chrome",
-      "brief": "OpenAI actualizo su extension para Chrome permitiendo que ChatGPT analice directamente el contenido de las pestanas que tengas abiertas en el navegador.",
-      "detail": "Para usarlo solo hace falta etiquetar a Chrome desde la aplicacion web o de escritorio y el asistente podra ver la informacion activa. Esta funcion llega despues de que la empresa cancelara su propio navegador experimental llamado Atlas."
+      "title": "Postgres demora su version diecinueve por reportes de fallas con inteligencia artificial",
+      "brief": "El equipo de PostgreSQL decidio posponer el lanzamiento de la version diecinueve porque las herramientas automatizadas saturaron la cola de revision.",
+      "detail": "Los desarrolladores se toparon con una avalancha de fallas reportadas por sistemas de inteligencia artificial aplicados al codigo fuente. Aunque varios problemas eran reales y legitimos, la cantidad de alertas supero por completo la capacidad del equipo humano para auditar y emparchar todo a tiempo. El caso encendio la discusion sobre el desgaste que sufren los proyectos de codigo abierto cuando reciben miles de revisiones sinteticas."
     },
     {
-      "title": "Logran ejecutar modelos de lenguaje en una PlayStation cinco",
-      "brief": "Un desarrollador consiguio adaptar la herramienta Llama punto ce pe pe para correr modelos de inteligencia artificial en consolas PlayStation cinco liberadas.",
-      "detail": "El proyecto permite cargar cualquier modelo en formatos optimizados directamente sobre el hardware de la consola sin depender de servidores externos. Es un experimento llamativo que aprovecha la memoria unificada y la potencia grafica del equipo para procesamiento local."
+      "title": "DeepSeek presento su nuevo modelo Flash",
+      "brief": "La firma china DeepSeek publico una actualizacion rapida de su arquitectura orientada a bajar costos y latencia para desarrolladores.",
+      "detail": "Se trata de la version cuatro punto uno Flash diez diecisiete, que ya se puede probar a traves de su documentacion oficial y diversas pasarelas de programacion. La comunidad tecnica destaco la velocidad de respuesta y la eficiencia lograda para procesar tareas comunes de programacion y razonamiento. Con este movimiento, la compania redobla la competencia en el segmento de modelos de bajo costo y alta velocidad."
     },
     {
-      "title": "El avance de la inteligencia artificial segun graficas recientes",
-      "brief": "En su ultimo video, el canal Inteligencia Artificial cuenta que la combinacion de varias metricas del sector demuestra un crecimiento tecnologico fuertemente exponencial.",
-      "detail": "El conductor analiza como diferentes curvas de rendimiento apuntan a saltos gigantescos hacia el ano 2027. Por eso plantea que la sociedad todavia no esta lista para la velocidad con la que se estan acelerando estas herramientas."
+      "title": "ChatGPT implementa interfaces interactivas en sus respuestas",
+      "brief": "En su ultimo video, el canal Alejavi Rivera cuenta que ChatGPT empezo a mostrar paneles visuales interactivos en vez de responder solo texto.",
+      "detail": "La nueva modalidad permite manipular datos y graficos directamente en pantalla sin depender exclusivamente de respuestas escritas tradicionales. En la demostracion se repasan varios casos de uso reales donde la interfaz se adapta dinamicamente a la tarea que pide el usuario. Esta transicion apunta a convertir el chat convencional en un entorno de software mucho mas operativo."
     }
   ]
 }
