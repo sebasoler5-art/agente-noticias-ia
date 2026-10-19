@@ -1,9 +1,10 @@
 name: daily-news
 
 on:
-  schedule:
-    # 06:00 UTC = 09:00 Argentina. Borrá este bloque si solo querés correrlo a mano.
-    - cron: "0 6 * * *"
+  # Ejecución diaria pausada temporalmente. Descomentar para reactivar.
+  # schedule:
+  #   # 06:00 UTC = 09:00 Argentina. Borrá este bloque si solo querés correrlo a mano.
+  #   - cron: "0 6 * * *"
   workflow_dispatch:
 
 permissions:
