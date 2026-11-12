@@ -1,26 +1,31 @@
 {
-  "date": "2026-10-18",
-  "updated_at": "2026-10-18T07:01:07-03:00",
+  "date": "2026-11-11",
+  "updated_at": "2026-11-11T22:21:49-03:00",
   "items": [
     {
-      "title": "Claude resolvio un enigma criptografico de decadas",
-      "brief": "El modelo de Anthropic logro reconstruir el origen matematico de las curvas criptograficas estandar que tenian en duda a la comunidad.",
-      "detail": "El investigador Filippo Valsorda mostro como Claude descubrio la logica detras de las constantes del algoritmo de firmas digitales que muchos sospechaban que escondia puertas traseras. En apenas media hora, la inteligencia artificial encontro un patron coherente que los expertos no habian podido descular en veinticinco anos. Esto descarta viejas sospechas sobre manipulaciones ocultas de agencias gubernamentales en esos parametros."
+      "title": "Equipos humanos‑agente auditables para experimentos de rayos X",
+      "brief": "Un nuevo método permite que equipos de IA y humanos colaboren de forma auditable en experimentos automáticos de rayos X.",
+      "detail": "El trabajo propone cerrar el bucle de experimentación autónoma, reduciendo la carga de implementación para laboratorios. Con agentes capaces de operar sin supervisión constante, se espera acelerar descubrimientos en física y materiales. La propuesta también incluye mecanismos de trazabilidad para validar cada paso del proceso."
     },
     {
-      "title": "Postgres demora su version diecinueve por reportes de fallas con inteligencia artificial",
-      "brief": "El equipo de PostgreSQL decidio posponer el lanzamiento de la version diecinueve porque las herramientas automatizadas saturaron la cola de revision.",
-      "detail": "Los desarrolladores se toparon con una avalancha de fallas reportadas por sistemas de inteligencia artificial aplicados al codigo fuente. Aunque varios problemas eran reales y legitimos, la cantidad de alertas supero por completo la capacidad del equipo humano para auditar y emparchar todo a tiempo. El caso encendio la discusion sobre el desgaste que sufren los proyectos de codigo abierto cuando reciben miles de revisiones sinteticas."
+      "title": "Gemini 4 Carbon llega a Google AI Studio",
+      "brief": "Google incorpora Gemini 4 Carbon a su app Gemini y AI Studio, habilitando razonamiento complejo mediante una API de pago.",
+      "detail": "La versión Carbon mejora la capacidad de razonamiento y permite ejecutar tareas avanzadas sin necesidad de infraestructura propia. Está disponible para suscriptores del plan AI Ultra y se ofrece bajo modelo de pago por uso. Con esta expansión, Google busca competir directamente con otros grandes modelos de gran escala."
     },
     {
-      "title": "DeepSeek presento su nuevo modelo Flash",
-      "brief": "La firma china DeepSeek publico una actualizacion rapida de su arquitectura orientada a bajar costos y latencia para desarrolladores.",
-      "detail": "Se trata de la version cuatro punto uno Flash diez diecisiete, que ya se puede probar a traves de su documentacion oficial y diversas pasarelas de programacion. La comunidad tecnica destaco la velocidad de respuesta y la eficiencia lograda para procesar tareas comunes de programacion y razonamiento. Con este movimiento, la compania redobla la competencia en el segmento de modelos de bajo costo y alta velocidad."
+      "title": "AlphaGenome 2 de Google para estudiar enfermedades",
+      "brief": "AlphaGenome 2 duplica la capacidad de su predecesor para predecir efectos genéticos, usando más de cien millones de perfiles celulares.",
+      "detail": "El modelo analiza variantes en sesenta y ocho tejidos, ofreciendo insights sobre cómo influyen en la salud. Su entrenamiento masivo permite identificar riesgos y posibles tratamientos con mayor precisión. Google lo posiciona como una herramienta clave para la investigación biomédica."
     },
     {
-      "title": "ChatGPT implementa interfaces interactivas en sus respuestas",
-      "brief": "En su ultimo video, el canal Alejavi Rivera cuenta que ChatGPT empezo a mostrar paneles visuales interactivos en vez de responder solo texto.",
-      "detail": "La nueva modalidad permite manipular datos y graficos directamente en pantalla sin depender exclusivamente de respuestas escritas tradicionales. En la demostracion se repasan varios casos de uso reales donde la interfaz se adapta dinamicamente a la tarea que pide el usuario. Esta transicion apunta a convertir el chat convencional en un entorno de software mucho mas operativo."
+      "title": "Nvidia podría destituir a su CEO",
+      "brief": "El consejo de Nvidia está considerando remover a Jensen Huang, su fundador, tras controversias que podrían afectar la confianza del mercado.",
+      "detail": "Según fuentes, la decisión podría tomarse tan pronto como el miércoles, generando incertidumbre entre inversores. La posible salida del líder que llevó a la empresa al dominio de la IA plantea dudas sobre la continuidad estratégica. Analistas advierten que la turbulencia podría impactar el precio de las acciones y la percepción global del sector."
+    },
+    {
+      "title": "DeepSeek lanza Modo Creador",
+      "brief": "DeepSeek presenta su Modo Creador, una herramienta open source que permite diseñar harness y funciones de agentes IA gratis.",
+      "detail": "El video de Alejavi Rivera muestra cómo generar harness personalizados sin costo y con código abierto. Además, ofrece mil créditos gratuitos de Manus AI para pruebas inmediatas. Esta iniciativa busca democratizar el desarrollo de agentes, facilitando su adopción en proyectos pequeños y medianos."
     }
   ]
 }
