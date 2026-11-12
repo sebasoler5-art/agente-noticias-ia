@@ -2,9 +2,9 @@
 """Agente de noticias de IA.
 
 Junta noticias de feeds RSS (sitios + canales de YouTube), le pide a un LLM
-(Gemini primero, Groq de respaldo) que elija las 3-5 mas importantes (con al
-menos un video/episodio si hay), escribe docs/news.json (contrato news_format.md)
-y manda el digest completo (con detalle y links) por Telegram.
+(Groq primero, OpenRouter de respaldo) que elija las 3-5 mas importantes (con
+al menos un video/episodio si hay), escribe docs/news.json (contrato
+news_format.md) y manda el digest completo (con detalle y links) por Telegram.
 """
 import calendar
 import html
@@ -23,10 +23,11 @@ import requests
 # kind: "article" | "video"
 # ai_filter: el feed es generalista, solo se queda con entradas que hablen de IA
 # skip_categories: categorias de WordPress a descartar
-# desc_only: usar solo la descripcion (el contenido completo es de paywall/largo)
+# desc_only: usar solo la descripcion
+# max: tope de entradas de ese feed (default MAX_ITEMS_PER_FEED)
 # ---------------------------------------------------------------------------
 FEEDS = [
-    {"name": "arXiv cs.AI", "url": "http://export.arxiv.org/rss/cs.AI", "kind": "article", "max": 6},
+    {"name": "arXiv cs.AI", "url": "http://export.arxiv.org/rss/cs.AI", "kind": "article", "max": 3},
     {"name": "Hacker News", "url": "https://hnrss.org/best", "kind": "article", "ai_filter": True},
     {"name": "OpenAI", "url": "https://openai.com/news/rss.xml", "kind": "article"},
     {"name": "TechCrunch IA", "url": "https://techcrunch.com/category/artificial-intelligence/feed/", "kind": "article"},
@@ -43,18 +44,21 @@ FEEDS = [
     {"name": "Wired ES Negocios", "url": "https://es.wired.com/feed/negocios/rss", "kind": "article", "ai_filter": True},
     {"name": "Wired ES Ciencia", "url": "https://es.wired.com/feed/ciencia/rss", "kind": "article", "ai_filter": True},
     # Canales de YouTube (video / episodio)
-    {"name": "YouTube: canal 1", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCxcDzs-4quJV4QsairlFYNg", "kind": "video"},
-    {"name": "YouTube: canal 2", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCl5-lvQyfILb-l2abPk4Ntg", "kind": "video"},
-    {"name": "YouTube: canal 3", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCnjgxChqYYnyoqO4k_Q1d6Q", "kind": "video"},
+    {"name": "YouTube: canal 1", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCxcDzs-4quJV4QsairlFYNg", "kind": "video", "max": 2},
+    {"name": "YouTube: canal 2", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCl5-lvQyfILb-l2abPk4Ntg", "kind": "video", "max": 2},
+    {"name": "YouTube: canal 3", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCnjgxChqYYnyoqO4k_Q1d6Q", "kind": "video", "max": 2},
 ]
 
-MAX_ITEMS_PER_FEED = 10
+# Ahorro de tokens: prompt chico (objetivo ~4-5K tokens)
+MAX_ITEMS_PER_FEED = 5
+MAX_ARTICLES_TOTAL = 34   # + hasta 6 videos = ~40 candidatas
+SUMMARY_CHARS = 250
 ARTICLE_MAX_AGE = timedelta(hours=48)
 VIDEO_MAX_AGE = timedelta(days=7)  # los canales no publican todos los dias
 OUTPUT_PATH = os.path.join(os.path.dirname(__file__), "..", "docs", "news.json")
 ARG_TZ = timezone(timedelta(hours=-3))
-GEMINI_MODEL = "gemini-3.8-flash"
 GROQ_MODEL = "openai/gpt-oss-120b"
+OPENROUTER_MODEL = "nvidia/nemotron-3-super-120b-a12b:free"
 TELEGRAM_LIMIT = 4000  # el maximo real es 4096
 
 AI_RE = re.compile(
@@ -111,16 +115,20 @@ def _entry_summary(entry, feed_cfg):
         if not raw and entry.get("content"):
             raw = entry["content"][0].get("value", "")
     text = _clean(raw)
-    # YouTube: la descripcion viene en media_description
-    if not text:
+    if not text:  # YouTube: la descripcion viene en media_description
         text = _clean(entry.get("media_description", ""))
-    return text[:600]
+    return text[:SUMMARY_CHARS]
+
+
+def _norm_title(title):
+    return re.sub(r"[^a-z0-9 ]", "", title.lower())[:60]
 
 
 def collect_candidates():
     """Devuelve lista de dicts {kind, source, title, summary, url}."""
     now = datetime.now(timezone.utc)
-    candidates = []
+    per_feed = []
+    seen_titles = set()
     for cfg in FEEDS:
         try:
             resp = requests.get(cfg["url"], timeout=20, headers={"User-Agent": "agente-noticias-ia/1.0"})
@@ -131,9 +139,9 @@ def collect_candidates():
             continue
 
         max_age = VIDEO_MAX_AGE if cfg["kind"] == "video" else ARTICLE_MAX_AGE
-        kept = 0
+        kept = []
         for entry in parsed.entries:
-            if kept >= cfg.get("max", MAX_ITEMS_PER_FEED):
+            if len(kept) >= cfg.get("max", MAX_ITEMS_PER_FEED):
                 break
             published = _entry_datetime(entry)
             if published and now - published > max_age:
@@ -141,27 +149,42 @@ def collect_candidates():
             title = _clean(entry.get("title", ""))
             if not title:
                 continue
+            key = _norm_title(title)
+            if key in seen_titles:
+                continue
             cats = [t.get("term", "").lower() for t in entry.get("tags", [])]
             if any(skip in cats for skip in cfg.get("skip_categories", [])):
                 continue
             summary = _entry_summary(entry, cfg)
             if cfg.get("ai_filter") and not AI_RE.search(f"{title} {summary}"):
                 continue
+            seen_titles.add(key)
             source = cfg["name"]
             if cfg["kind"] == "video":
                 author = _clean(entry.get("author", ""))
                 if author:
                     source = f"YouTube: {author}"
-            candidates.append({
+            kept.append({
                 "kind": cfg["kind"],
                 "source": source,
                 "title": title,
                 "summary": summary,
                 "url": entry.get("link", ""),
             })
-            kept += 1
-        print(f"[feed] {cfg['name']}: {kept} entradas")
-    return candidates
+        print(f"[feed] {cfg['name']}: {len(kept)} entradas")
+        per_feed.append(kept)
+
+    # Videos: todos. Articulos: round-robin entre fuentes hasta el tope.
+    videos = [c for feed in per_feed for c in feed if c["kind"] == "video"]
+    article_feeds = [[c for c in feed if c["kind"] == "article"] for feed in per_feed]
+    articles = []
+    depth = 0
+    while len(articles) < MAX_ARTICLES_TOTAL and any(len(f) > depth for f in article_feeds):
+        for f in article_feeds:
+            if len(f) > depth and len(articles) < MAX_ARTICLES_TOTAL:
+                articles.append(f[depth])
+        depth += 1
+    return articles + videos
 
 
 def build_prompt_text(candidates):
@@ -180,37 +203,50 @@ def _raise_with_body(resp):
         raise RuntimeError(f"HTTP {resp.status_code}: {resp.text[:500]}")
 
 
-def call_gemini(prompt_text):
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent"
-    headers = {"x-goog-api-key": os.environ["GEMINI_API_KEY"], "Content-Type": "application/json"}
-    payload = {
-        "system_instruction": {"parts": [{"text": SYSTEM_PROMPT}]},
-        "contents": [{"role": "user", "parts": [{"text": prompt_text}]}],
-        "generationConfig": {"responseMimeType": "application/json", "temperature": 0.3},
+def _parse_json_lenient(text):
+    """Algunos modelos gratuitos envuelven el JSON en texto o ```; lo extrae."""
+    try:
+        return json.loads(text)
+    except json.JSONDecodeError:
+        start, end = text.find("{"), text.rfind("}")
+        if start == -1 or end <= start:
+            raise
+        return json.loads(text[start:end + 1])
+
+
+def _chat_completions(url, api_key, model, prompt_text, json_mode, extra_headers=None):
+    headers = {"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"}
+    headers.update(extra_headers or {})
+    body = {
+        "model": model,
+        "messages": [
+            {"role": "system", "content": SYSTEM_PROMPT},
+            {"role": "user", "content": prompt_text},
+        ],
+        "temperature": 0.3,
     }
-    resp = requests.post(url, headers=headers, json=payload, timeout=90)
+    if json_mode:
+        body["response_format"] = {"type": "json_object"}
+    resp = requests.post(url, headers=headers, json=body, timeout=120)
     _raise_with_body(resp)
-    text = resp.json()["candidates"][0]["content"]["parts"][0]["text"]
-    return json.loads(text)
+    content = resp.json()["choices"][0]["message"]["content"]
+    return _parse_json_lenient(content)
 
 
 def call_groq(prompt_text):
-    resp = requests.post(
+    return _chat_completions(
         "https://api.groq.com/openai/v1/chat/completions",
-        headers={"Authorization": f"Bearer {os.environ['GROQ_API_KEY']}", "Content-Type": "application/json"},
-        json={
-            "model": GROQ_MODEL,
-            "messages": [
-                {"role": "system", "content": SYSTEM_PROMPT},
-                {"role": "user", "content": prompt_text},
-            ],
-            "response_format": {"type": "json_object"},
-            "temperature": 0.3,
-        },
-        timeout=90,
+        os.environ["GROQ_API_KEY"], GROQ_MODEL, prompt_text, json_mode=True,
     )
-    _raise_with_body(resp)
-    return json.loads(resp.json()["choices"][0]["message"]["content"])
+
+
+def call_openrouter(prompt_text):
+    # json_mode apagado: no todos los modelos :free lo soportan; se parsea igual.
+    return _chat_completions(
+        "https://openrouter.ai/api/v1/chat/completions",
+        os.environ["OPENROUTER_API_KEY"], OPENROUTER_MODEL, prompt_text, json_mode=False,
+        extra_headers={"X-Title": "agente-noticias-ia"},
+    )
 
 
 # ---------------------------------------------------------------------------
@@ -321,9 +357,19 @@ def main():
         print("[error] muy pocas candidatas; se conserva news.json anterior")
         return 1
     prompt_text = build_prompt_text(candidates)
+    print(f"[info] prompt: {len(prompt_text)} caracteres (~{(len(prompt_text) + len(SYSTEM_PROMPT)) // 4} tokens)")
+
+    providers = []
+    if os.environ.get("GROQ_API_KEY"):
+        providers.append(("Groq", call_groq))
+    if os.environ.get("OPENROUTER_API_KEY"):
+        providers.append(("OpenRouter", call_openrouter))
+    if not providers:
+        print("[error] no hay GROQ_API_KEY ni OPENROUTER_API_KEY")
+        return 1
 
     items = None
-    for name, fn in (("Gemini", call_gemini), ("Groq", call_groq)):
+    for name, fn in providers:
         try:
             items = validate_items(fn(prompt_text), candidates)
             print(f"[ok] {name} genero {len(items)} items")
@@ -331,7 +377,7 @@ def main():
         except Exception as exc:
             print(f"[error] {name}: {exc}")
     if items is None:
-        print("[error] fallaron ambos LLMs; se conserva news.json anterior")
+        print("[error] fallaron todos los LLMs; se conserva news.json anterior")
         return 1
 
     payload = build_output(items)

@@ -1,10 +1,10 @@
 name: daily-news
 
 on:
-  # Ejecución diaria pausada temporalmente. Descomentar para reactivar.
-  # schedule:
-  #   # 06:00 UTC = 09:00 Argentina. Borrá este bloque si solo querés correrlo a mano.
-  #   - cron: "0 6 * * *"
+  schedule:
+    # 10:30 UTC = 07:30 Argentina (GitHub suele atrasar algunos minutos).
+    # Borrá este bloque si solo querés correrlo a mano.
+    - cron: "30 10 * * *"
   workflow_dispatch:
 
 permissions:
@@ -26,8 +26,8 @@ jobs:
       - name: Generar noticias
         run: python scripts/generate_news.py
         env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
       - name: Commit news.json
