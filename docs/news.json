@@ -1,31 +1,26 @@
 {
-  "date": "2026-11-11",
-  "updated_at": "2026-11-11T22:21:49-03:00",
+  "date": "2026-11-12",
+  "updated_at": "2026-11-12T17:10:49-03:00",
   "items": [
     {
-      "title": "Equipos humanos‑agente auditables para experimentos de rayos X",
-      "brief": "Un nuevo método permite que equipos de IA y humanos colaboren de forma auditable en experimentos automáticos de rayos X.",
-      "detail": "El trabajo propone cerrar el bucle de experimentación autónoma, reduciendo la carga de implementación para laboratorios. Con agentes capaces de operar sin supervisión constante, se espera acelerar descubrimientos en física y materiales. La propuesta también incluye mecanismos de trazabilidad para validar cada paso del proceso."
+      "title": "Google lanza Gemini 4 Hydrogen",
+      "brief": "Google presentó Gemini 4 Hydrogen, una versión mejorada de su modelo de IA que responde preguntas complejas y muestra respuestas visuales.",
+      "detail": "El modelo se integra en el modo IA de Google Search, mejorando la comprensión de consultas complicadas. Además, permite generar enlaces relevantes y respuestas visuales más ricas, lo que facilita la búsqueda de información."
     },
     {
-      "title": "Gemini 4 Carbon llega a Google AI Studio",
-      "brief": "Google incorpora Gemini 4 Carbon a su app Gemini y AI Studio, habilitando razonamiento complejo mediante una API de pago.",
-      "detail": "La versión Carbon mejora la capacidad de razonamiento y permite ejecutar tareas avanzadas sin necesidad de infraestructura propia. Está disponible para suscriptores del plan AI Ultra y se ofrece bajo modelo de pago por uso. Con esta expansión, Google busca competir directamente con otros grandes modelos de gran escala."
+      "title": "Anthropic inicia su salida a bolsa",
+      "brief": "La empresa creadora de Claude comenzará a cotizar en la bolsa el 19 de noviembre, marcando un hito importante en el sector de IA.",
+      "detail": "El debut en la bolsa busca financiar más investigación y expansión de sus modelos de lenguaje. Los inversores observarán cómo compite Anthropic con gigantes como OpenAI y Google."
     },
     {
-      "title": "AlphaGenome 2 de Google para estudiar enfermedades",
-      "brief": "AlphaGenome 2 duplica la capacidad de su predecesor para predecir efectos genéticos, usando más de cien millones de perfiles celulares.",
-      "detail": "El modelo analiza variantes en sesenta y ocho tejidos, ofreciendo insights sobre cómo influyen en la salud. Su entrenamiento masivo permite identificar riesgos y posibles tratamientos con mayor precisión. Google lo posiciona como una herramienta clave para la investigación biomédica."
+      "title": "Jensen Huang renuncia como CEO de Nvidia",
+      "brief": "El cofundador y director ejecutivo de Nvidia dejó su cargo tras una investigación interna, generando incertidumbre en el mercado de IA.",
+      "detail": "La renuncia repentina plantea preguntas sobre la sucesión y la continuidad de la estrategia de hardware de IA de la compañía. Analistas temen que la salida pueda afectar la confianza de los inversores y los planes de expansión."
     },
     {
-      "title": "Nvidia podría destituir a su CEO",
-      "brief": "El consejo de Nvidia está considerando remover a Jensen Huang, su fundador, tras controversias que podrían afectar la confianza del mercado.",
-      "detail": "Según fuentes, la decisión podría tomarse tan pronto como el miércoles, generando incertidumbre entre inversores. La posible salida del líder que llevó a la empresa al dominio de la IA plantea dudas sobre la continuidad estratégica. Analistas advierten que la turbulencia podría impactar el precio de las acciones y la percepción global del sector."
-    },
-    {
-      "title": "DeepSeek lanza Modo Creador",
-      "brief": "DeepSeek presenta su Modo Creador, una herramienta open source que permite diseñar harness y funciones de agentes IA gratis.",
-      "detail": "El video de Alejavi Rivera muestra cómo generar harness personalizados sin costo y con código abierto. Además, ofrece mil créditos gratuitos de Manus AI para pruebas inmediatas. Esta iniciativa busca democratizar el desarrollo de agentes, facilitando su adopción en proyectos pequeños y medianos."
+      "title": "Craft Anything permite recrear cualquier app gratis",
+      "brief": "En su último video, el canal Alejavi Rivera muestra Craft Anything, una herramienta de IA que replica aplicaciones completas de forma gratuita.",
+      "detail": "La IA recrea funcionalidades de suites como Adobe y Microsoft sin costo, facilitando el desarrollo rápido de prototipos. Rivera destaca que la herramienta está disponible bajo licencia abierta y ofrece descuentos para usuarios tempranos."
     }
   ]
 }
