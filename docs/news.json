@@ -1,26 +1,26 @@
 {
-  "date": "2026-11-12",
-  "updated_at": "2026-11-12T17:10:49-03:00",
+  "date": "2026-11-13",
+  "updated_at": "2026-11-13T16:54:29-03:00",
   "items": [
     {
-      "title": "Google lanza Gemini 4 Hydrogen",
-      "brief": "Google presentó Gemini 4 Hydrogen, una versión mejorada de su modelo de IA que responde preguntas complejas y muestra respuestas visuales.",
-      "detail": "El modelo se integra en el modo IA de Google Search, mejorando la comprensión de consultas complicadas. Además, permite generar enlaces relevantes y respuestas visuales más ricas, lo que facilita la búsqueda de información."
+      "title": "ChatGPT Wallet permite compras con IA",
+      "brief": "OpenAI lanzó ChatGPT Wallet, que autoriza compras a través de agentes de IA con aprobación del usuario y protección de tarjetas.",
+      "detail": "La herramienta está pensada para usuarios de ChatGPT Work, Codex y otras integraciones que necesiten comprar productos o servicios. Cada transacción requiere la confirmación del usuario mediante huella o reconocimiento facial, manteniendo la tarjeta fuera del alcance del asistente."
     },
     {
-      "title": "Anthropic inicia su salida a bolsa",
-      "brief": "La empresa creadora de Claude comenzará a cotizar en la bolsa el 19 de noviembre, marcando un hito importante en el sector de IA.",
-      "detail": "El debut en la bolsa busca financiar más investigación y expansión de sus modelos de lenguaje. Los inversores observarán cómo compite Anthropic con gigantes como OpenAI y Google."
+      "title": "Google presenta Gemini 4 Hydrogen",
+      "brief": "Google lanzó Gemini 4 Hydrogen, un modelo orientado a tareas rápidas y a la creación de agentes con varios niveles de razonamiento.",
+      "detail": "El modelo se integra en la app Gemini, en la búsqueda y en AI Studio, ofreciendo cuatro niveles de razonamiento. Se destaca por su capacidad de programar y gestionar flujos de trabajo con agentes, facilitando desarrollos más ágiles."
     },
     {
-      "title": "Jensen Huang renuncia como CEO de Nvidia",
-      "brief": "El cofundador y director ejecutivo de Nvidia dejó su cargo tras una investigación interna, generando incertidumbre en el mercado de IA.",
-      "detail": "La renuncia repentina plantea preguntas sobre la sucesión y la continuidad de la estrategia de hardware de IA de la compañía. Analistas temen que la salida pueda afectar la confianza de los inversores y los planes de expansión."
+      "title": "Renuncia de Jensen Huang sacude a Nvidia",
+      "brief": "Jensen Huang renunció como CEO de Nvidia, provocando incertidumbre sobre el futuro de la compañía líder en IA.",
+      "detail": "La salida del fundador ocurre tras un escándalo que involucró a una presunta espía china y tensiones internas. Analistas advierten que la transición podría afectar la estrategia de hardware y software de IA de Nvidia en los próximos meses."
     },
     {
-      "title": "Craft Anything permite recrear cualquier app gratis",
-      "brief": "En su último video, el canal Alejavi Rivera muestra Craft Anything, una herramienta de IA que replica aplicaciones completas de forma gratuita.",
-      "detail": "La IA recrea funcionalidades de suites como Adobe y Microsoft sin costo, facilitando el desarrollo rápido de prototipos. Rivera destaca que la herramienta está disponible bajo licencia abierta y ofrece descuentos para usuarios tempranos."
+      "title": "DeepSeek lanza Modo CREADOR gratuito",
+      "brief": "En su último video, Alejavi Rivera muestra el Modo CREADOR de DeepSeek, herramienta gratuita y de código abierto para crear agentes IA.",
+      "detail": "El modo permite diseñar harness y funciones de agentes sin costo, facilitando la personalización de modelos de lenguaje. DeepSeek también ofrece 1000 créditos gratuitos de Manus AI para probar la plataforma, impulsando la adopción entre desarrolladores."
     }
   ]
 }
