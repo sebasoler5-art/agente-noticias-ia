@@ -1,26 +1,31 @@
 {
-  "date": "2026-11-13",
-  "updated_at": "2026-11-13T16:54:29-03:00",
+  "date": "2026-11-14",
+  "updated_at": "2026-11-14T15:20:46-03:00",
   "items": [
     {
-      "title": "ChatGPT Wallet permite compras con IA",
-      "brief": "OpenAI lanzó ChatGPT Wallet, que autoriza compras a través de agentes de IA con aprobación del usuario y protección de tarjetas.",
-      "detail": "La herramienta está pensada para usuarios de ChatGPT Work, Codex y otras integraciones que necesiten comprar productos o servicios. Cada transacción requiere la confirmación del usuario mediante huella o reconocimiento facial, manteniendo la tarjeta fuera del alcance del asistente."
+      "title": "Craft Anything permite recrear cualquier aplicación gratis",
+      "brief": "El nuevo proyecto Craft Anything de Alejavi Rivera permite copiar cualquier aplicación de forma gratuita y con código abierto.",
+      "detail": "En el video se muestra cómo la herramienta genera versiones funcionales de apps populares sin necesidad de licencias. Usa modelos de IA para analizar interfaces y producir código listo para compilar. La comunidad ya está probando versiones de suites de Adobe y Microsoft, lo que podría cambiar el panorama del desarrollo de software."
     },
     {
-      "title": "Google presenta Gemini 4 Hydrogen",
-      "brief": "Google lanzó Gemini 4 Hydrogen, un modelo orientado a tareas rápidas y a la creación de agentes con varios niveles de razonamiento.",
-      "detail": "El modelo se integra en la app Gemini, en la búsqueda y en AI Studio, ofreciendo cuatro niveles de razonamiento. Se destaca por su capacidad de programar y gestionar flujos de trabajo con agentes, facilitando desarrollos más ágiles."
+      "title": "OpenAI lanza ChatGPT Wallet para compras con IA",
+      "brief": "OpenAI presentó ChatGPT Wallet, un método seguro que permite a los agentes de IA comprar productos con aprobación del usuario y protección de tarjeta.",
+      "detail": "El wallet está disponible para suscriptores Pro en EE. UU. y requiere una dirección de facturación local. Los agentes de Dots pueden solicitar pagos y OpenAI verifica la transacción antes de completarla. Esta función busca integrar comercio electrónico directamente en conversaciones de IA."
     },
     {
-      "title": "Renuncia de Jensen Huang sacude a Nvidia",
-      "brief": "Jensen Huang renunció como CEO de Nvidia, provocando incertidumbre sobre el futuro de la compañía líder en IA.",
-      "detail": "La salida del fundador ocurre tras un escándalo que involucró a una presunta espía china y tensiones internas. Analistas advierten que la transición podría afectar la estrategia de hardware y software de IA de Nvidia en los próximos meses."
+      "title": "Salida de Jensen Huang deja hueco en financiación de startups",
+      "brief": "La renuncia de Jensen Huang de Nvidia genera incertidumbre entre fundadores y VCs, que temen recortes en cheques y valoraciones.",
+      "detail": "Huang había impulsado miles de millones en inversiones a startups de IA, creando un ecosistema de rápido crecimiento. Sin su liderazgo, muchos emprendedores esperan que los fondos sean más cautelosos y que las rondas sean más pequeñas. Analistas advierten que la falta de un \"rockstar\" podría ralentizar la innovación en el sector."
     },
     {
-      "title": "DeepSeek lanza Modo CREADOR gratuito",
-      "brief": "En su último video, Alejavi Rivera muestra el Modo CREADOR de DeepSeek, herramienta gratuita y de código abierto para crear agentes IA.",
-      "detail": "El modo permite diseñar harness y funciones de agentes sin costo, facilitando la personalización de modelos de lenguaje. DeepSeek también ofrece 1000 créditos gratuitos de Manus AI para probar la plataforma, impulsando la adopción entre desarrolladores."
+      "title": "MIT acelera emuladores climáticos con IA",
+      "brief": "Investigadores del MIT desarrollaron una técnica que usa IA para simular escenarios climáticos en segundos, antes tardaban meses.",
+      "detail": "El método genera datos sintéticos que estiman efectos humanos sobre temperatura y nivel del mar sin requerir supercomputadoras. Esto permite a científicos probar múltiples políticas rápidamente. La comunidad espera que esta herramienta reduzca costos y acelere la toma de decisiones climáticas."
+    },
+    {
+      "title": "Inversores apuestan por la IPO de Anthropic",
+      "brief": "La salida a bolsa de Anthropic atrae gran interés de inversores, aunque persisten dudas sobre la sostenibilidad de su liderazgo en IA.",
+      "detail": "El debut en el mercado se produce mientras la empresa compite con OpenAI y otras firmas emergentes. Analistas de Reuters señalan que la valoración refleja expectativas de crecimiento, pero advierten sobre la volatilidad del sector. El IPO podría servir como barómetro de la confianza de Wall Street en la próxima generación de modelos de IA."
     }
   ]
 }
