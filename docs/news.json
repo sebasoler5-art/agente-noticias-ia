@@ -1,31 +1,26 @@
 {
-  "date": "2026-11-14",
-  "updated_at": "2026-11-14T15:20:46-03:00",
+  "date": "2026-11-15",
+  "updated_at": "2026-11-15T15:59:13-03:00",
   "items": [
     {
-      "title": "Craft Anything permite recrear cualquier aplicación gratis",
-      "brief": "El nuevo proyecto Craft Anything de Alejavi Rivera permite copiar cualquier aplicación de forma gratuita y con código abierto.",
-      "detail": "En el video se muestra cómo la herramienta genera versiones funcionales de apps populares sin necesidad de licencias. Usa modelos de IA para analizar interfaces y producir código listo para compilar. La comunidad ya está probando versiones de suites de Adobe y Microsoft, lo que podría cambiar el panorama del desarrollo de software."
+      "title": "Anthropic sale en bolsa",
+      "brief": "Anthropic salió a bolsa, ofreciendo un punto de luz en un mercado de IA que atraviesa turbulencias.",
+      "detail": "La compañía, fundada por ex‑empleados de OpenAI, cotiza bajo el símbolo ANTH y busca financiar su próximo modelo de lenguaje. Los analistas ven la oferta como una prueba de que los inversores siguen confiando en la tecnología pese a la reciente caída de otras firmas del sector."
     },
     {
-      "title": "OpenAI lanza ChatGPT Wallet para compras con IA",
-      "brief": "OpenAI presentó ChatGPT Wallet, un método seguro que permite a los agentes de IA comprar productos con aprobación del usuario y protección de tarjeta.",
-      "detail": "El wallet está disponible para suscriptores Pro en EE. UU. y requiere una dirección de facturación local. Los agentes de Dots pueden solicitar pagos y OpenAI verifica la transacción antes de completarla. Esta función busca integrar comercio electrónico directamente en conversaciones de IA."
+      "title": "Caída de Nvidia afecta jubilaciones",
+      "brief": "La renuncia de Jensen Huang provocó una caída de casi treinta por ciento en Nvidia, reduciendo ahorros de jubilados que no poseían acciones.",
+      "detail": "El precio de la acción cayó tras el anuncio, borrando cientos de millones de dólares en capitalización. Expertos advierten que muchos fondos de pensión tenían exposición indirecta a través de ETFs de tecnología, lo que podría afectar sus rendimientos futuros."
     },
     {
-      "title": "Salida de Jensen Huang deja hueco en financiación de startups",
-      "brief": "La renuncia de Jensen Huang de Nvidia genera incertidumbre entre fundadores y VCs, que temen recortes en cheques y valoraciones.",
-      "detail": "Huang había impulsado miles de millones en inversiones a startups de IA, creando un ecosistema de rápido crecimiento. Sin su liderazgo, muchos emprendedores esperan que los fondos sean más cautelosos y que las rondas sean más pequeñas. Analistas advierten que la falta de un \"rockstar\" podría ralentizar la innovación en el sector."
+      "title": "Nvidia supuestamente creó escasez de GPUs",
+      "brief": "Según denuncias, Nvidia habría financiado startups de IA para que compraran sus tarjetas, generando artificialmente escasez en el mercado.",
+      "detail": "Los documentos judiciales indican que la empresa ofreció líneas de crédito vinculadas a la compra de GPUs, obligando a los nuevos jugadores a adquirir hardware de Nvidia. Esta práctica habría inflado los precios y limitado la disponibilidad para otros fabricantes y usuarios finales."
     },
     {
-      "title": "MIT acelera emuladores climáticos con IA",
-      "brief": "Investigadores del MIT desarrollaron una técnica que usa IA para simular escenarios climáticos en segundos, antes tardaban meses.",
-      "detail": "El método genera datos sintéticos que estiman efectos humanos sobre temperatura y nivel del mar sin requerir supercomputadoras. Esto permite a científicos probar múltiples políticas rápidamente. La comunidad espera que esta herramienta reduzca costos y acelere la toma de decisiones climáticas."
-    },
-    {
-      "title": "Inversores apuestan por la IPO de Anthropic",
-      "brief": "La salida a bolsa de Anthropic atrae gran interés de inversores, aunque persisten dudas sobre la sostenibilidad de su liderazgo en IA.",
-      "detail": "El debut en el mercado se produce mientras la empresa compite con OpenAI y otras firmas emergentes. Analistas de Reuters señalan que la valoración refleja expectativas de crecimiento, pero advierten sobre la volatilidad del sector. El IPO podría servir como barómetro de la confianza de Wall Street en la próxima generación de modelos de IA."
+      "title": "Craft Anything recrea apps gratis",
+      "brief": "En su video, Alejavi Rivera muestra Craft Anything, una herramienta que genera código de cualquier aplicación al estilo de Adobe y Microsoft, sin costo.",
+      "detail": "El programa usa modelos de IA optimizados para interpretar descripciones y producir código fuente listo para compilar. Rivera también ofrece un descuento especial para acceder a recursos de cómputo, facilitando a desarrolladores independientes probar la herramienta."
     }
   ]
 }
