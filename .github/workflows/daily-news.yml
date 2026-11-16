@@ -1,10 +1,10 @@
 name: daily-news
 
 on:
-  schedule:
+  #schedule:
     # 12:30 UTC = 09:30 Argentina (GitHub suele atrasar algunos minutos).
     # Borrá este bloque si solo querés correrlo a mano.
-    - cron: "30 9 * * *"
+    #- cron: "30 9 * * *"
   workflow_dispatch:
 
 permissions:
