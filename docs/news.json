@@ -1,26 +1,31 @@
 {
-  "date": "2026-11-15",
-  "updated_at": "2026-11-15T15:59:13-03:00",
+  "date": "2026-11-16",
+  "updated_at": "2026-11-16T16:48:19-03:00",
   "items": [
     {
-      "title": "Anthropic sale en bolsa",
-      "brief": "Anthropic salió a bolsa, ofreciendo un punto de luz en un mercado de IA que atraviesa turbulencias.",
-      "detail": "La compañía, fundada por ex‑empleados de OpenAI, cotiza bajo el símbolo ANTH y busca financiar su próximo modelo de lenguaje. Los analistas ven la oferta como una prueba de que los inversores siguen confiando en la tecnología pese a la reciente caída de otras firmas del sector."
+      "title": "Qwen4-Max modelo de gran escala lanzado",
+      "brief": "Qwen4-Max llega como nuevo modelo de gran escala, ofreciendo mejor rendimiento y eficiencia para tareas de generación de texto.",
+      "detail": "El modelo fue presentado por la comunidad Qwen y destaca por su arquitectura optimizada. Según los benchmarks, supera a versiones anteriores en velocidad y precisión, lo que lo hace atractivo para desarrolladores que buscan balance entre coste y calidad."
     },
     {
-      "title": "Caída de Nvidia afecta jubilaciones",
-      "brief": "La renuncia de Jensen Huang provocó una caída de casi treinta por ciento en Nvidia, reduciendo ahorros de jubilados que no poseían acciones.",
-      "detail": "El precio de la acción cayó tras el anuncio, borrando cientos de millones de dólares en capitalización. Expertos advierten que muchos fondos de pensión tenían exposición indirecta a través de ETFs de tecnología, lo que podría afectar sus rendimientos futuros."
+      "title": "OpenAI amplía acceso gratuito a investigadores",
+      "brief": "OpenAI abre su programa ChatGPT for Academic Researchers a 200 mil científicos, brindándoles uso sin costo de sus modelos más avanzados.",
+      "detail": "La iniciativa busca acelerar la investigación en IA al eliminar barreras económicas. Los participantes podrán integrar los modelos en sus flujos de trabajo y publicar resultados sin restricciones de licencia."
     },
     {
-      "title": "Nvidia supuestamente creó escasez de GPUs",
-      "brief": "Según denuncias, Nvidia habría financiado startups de IA para que compraran sus tarjetas, generando artificialmente escasez en el mercado.",
-      "detail": "Los documentos judiciales indican que la empresa ofreció líneas de crédito vinculadas a la compra de GPUs, obligando a los nuevos jugadores a adquirir hardware de Nvidia. Esta práctica habría inflado los precios y limitado la disponibilidad para otros fabricantes y usuarios finales."
+      "title": "Apple prueba límites diarios para Siri IA",
+      "brief": "Apple prueba límites de uso diario en sus funciones de Siri e Inteligencia Artificial, controlando cuántas interacciones complejas pueden realizar los usuarios.",
+      "detail": "Las pruebas se incluyen en las versiones beta de iOS 27.3, iPadOS 27.3 y macOS 27.3. El objetivo es evitar sobrecargas de servidores y mejorar la experiencia al distribuir la carga."
     },
     {
-      "title": "Craft Anything recrea apps gratis",
-      "brief": "En su video, Alejavi Rivera muestra Craft Anything, una herramienta que genera código de cualquier aplicación al estilo de Adobe y Microsoft, sin costo.",
-      "detail": "El programa usa modelos de IA optimizados para interpretar descripciones y producir código fuente listo para compilar. Rivera también ofrece un descuento especial para acceder a recursos de cómputo, facilitando a desarrolladores independientes probar la herramienta."
+      "title": "OpenAI lanza clasificador contra deepfakes de abuso infantil",
+      "brief": "OpenAI presenta una herramienta que filtra deepfakes para ayudar a líneas de ayuda contra abuso infantil, reduciendo el ruido de contenido dañino.",
+      "detail": "El clasificador, basado en modelos de visión, identifica rápidamente material manipulado que pueda ser usado para explotar menores. Según la agencia, la herramienta ya está en pruebas con organizaciones de protección infantil."
+    },
+    {
+      "title": "Tutorial DeepSeek: cómo usarlo mejor que el 99 %",
+      "brief": "En su video, Alejavi Rivera muestra cómo usar DeepSeek, el ecosistema de IA más optimizado, con trucos que superan al 99 % de usuarios.",
+      "detail": "El tutorial cubre instalación, configuración y ejemplos prácticos de generación de texto y código. Además, revela atajos para reducir costos y mejorar la velocidad, útiles para desarrolladores argentinos."
     }
   ]
 }
